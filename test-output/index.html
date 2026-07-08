@@ -1,0 +1,1759 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-ParallelExecution" class="navigator-link">
+              <span class="suite-name border-failed">ParallelExecution</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-ParallelExecution" class="navigator-link ">
+                    <span>E:\Automation\DemoAppsFramework\src\test\java\com.demoapps.runnerFile\ParallelExecution.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-ParallelExecution" class="navigator-link ">
+                    <span class="test-stats">3 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-ParallelExecution" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-ParallelExecution" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-ParallelExecution" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-ParallelExecution" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-ParallelExecution" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">34 methods, 2 failed,  12 skipped,  20 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-ParallelExecution" class="hide-methods failed suite-ParallelExecution"> (hide)</a> <!-- hide-methods failed suite-ParallelExecution -->
+                      <a href="#" panel-name="suite-ParallelExecution" class="show-methods failed suite-ParallelExecution"> (show)</a> <!-- show-methods failed suite-ParallelExecution -->
+                    </span>
+                    <div class="method-list-content failed suite-ParallelExecution">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelExecution" title="com.demoapps.testcase.IntegrationTestCase" class="method navigator-link" hash-for-method="iTC_06VerifyMultipleCartProducts(Casual Golf Belt, 2)">iTC_06VerifyMultipleCartProducts(Casual Golf Belt, 2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelExecution" title="com.demoapps.testcase.SmokeTestCase" class="method navigator-link" hash-for-method="smokeTC_01">smokeTC_01</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-ParallelExecution -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-ParallelExecution" class="hide-methods skipped suite-ParallelExecution"> (hide)</a> <!-- hide-methods skipped suite-ParallelExecution -->
+                      <a href="#" panel-name="suite-ParallelExecution" class="show-methods skipped suite-ParallelExecution"> (show)</a> <!-- show-methods skipped suite-ParallelExecution -->
+                    </span>
+                    <div class="method-list-content skipped suite-ParallelExecution">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelExecution" title="com.demoapps.testcase.FuncationalTestCase" class="method navigator-link" hash-for-method="FC_01userRegistrationPage(Owen, Bernhard, ruby.sawayn@gmail.com, $83$X*&amp;, Female)">FC_01userRegistrationPage(Owen, Bernhard, ruby.sawayn@gmail.com, $83$X*&, Female)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelExecution" title="com.demoapps.testcase.FuncationalTestCase" class="method navigator-link" hash-for-method="FC_01userRegistrationPage(Tamika, Funk, ming.carter@gmail.com, $GRogFX, Female)">FC_01userRegistrationPage(Tamika, Funk, ming.carter@gmail.com, $GRogFX, Female)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelExecution" title="com.demoapps.testcase.SmokeTestCase" class="method navigator-link" hash-for-method="smokeTC_01">smokeTC_01</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelExecution" title="com.demoapps.testcase.SmokeTestCase" class="method navigator-link" hash-for-method="smokeTC_02">smokeTC_02</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelExecution" title="com.demoapps.testcase.SmokeTestCase" class="method navigator-link" hash-for-method="smokeTC_03">smokeTC_03</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelExecution" title="com.demoapps.testcase.SmokeTestCase" class="method navigator-link" hash-for-method="smokeTC_04">smokeTC_04</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelExecution" title="com.demoapps.testcase.SmokeTestCase" class="method navigator-link" hash-for-method="smokeTC_06">smokeTC_06</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelExecution" title="com.demoapps.testcase.SmokeTestCase" class="method navigator-link" hash-for-method="smokeTc_07">smokeTc_07</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelExecution" title="com.demoapps.testcase.SmokeTestCase" class="method navigator-link" hash-for-method="verifyTitleOfApparelAndShoes">verifyTitleOfApparelAndShoes</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelExecution" title="com.demoapps.testcase.SmokeTestCase" class="method navigator-link" hash-for-method="verifyTitleOfBookPage">verifyTitleOfBookPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelExecution" title="com.demoapps.testcase.SmokeTestCase" class="method navigator-link" hash-for-method="verifyTitleOfElectronicsPage">verifyTitleOfElectronicsPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelExecution" title="com.demoapps.testcase.SmokeTestCase" class="method navigator-link" hash-for-method="verifyTitleOfJewelryPage">verifyTitleOfJewelryPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-ParallelExecution -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-ParallelExecution" class="hide-methods passed suite-ParallelExecution"> (hide)</a> <!-- hide-methods passed suite-ParallelExecution -->
+                      <a href="#" panel-name="suite-ParallelExecution" class="show-methods passed suite-ParallelExecution"> (show)</a> <!-- show-methods passed suite-ParallelExecution -->
+                    </span>
+                    <div class="method-list-content passed suite-ParallelExecution">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelExecution" title="com.demoapps.testcase.IntegrationTestCase" class="method navigator-link" hash-for-method="iTC_06VerifyMultipleCartProducts(Health Book, 4)">iTC_06VerifyMultipleCartProducts(Health Book, 4)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelExecution" title="com.demoapps.testcase.IntegrationTestCase" class="method navigator-link" hash-for-method="iTC_06VerifyMultipleCartProducts(Casual Golf Belt, 2)">iTC_06VerifyMultipleCartProducts(Casual Golf Belt, 2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelExecution" title="com.demoapps.testcase.IntegrationTestCase" class="method navigator-link" hash-for-method="iTC_06VerifyMultipleCartProducts(Fiction, 5)">iTC_06VerifyMultipleCartProducts(Fiction, 5)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelExecution" title="com.demoapps.testcase.IntegrationTestCase" class="method navigator-link" hash-for-method="iTC_06VerifyMultipleCartProducts(Blue Jeans, 6)">iTC_06VerifyMultipleCartProducts(Blue Jeans, 6)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelExecution" title="com.demoapps.testcase.IntegrationTestCase" class="method navigator-link" hash-for-method="iTC_06VerifyMultipleCartProducts(3rd Album, 3)">iTC_06VerifyMultipleCartProducts(3rd Album, 3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelExecution" title="com.demoapps.testcase.IntegrationTestCase" class="method navigator-link" hash-for-method="iTC_06VerifyMultipleCartProducts(Computing and Internet, 1)">iTC_06VerifyMultipleCartProducts(Computing and Internet, 1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelExecution" title="com.demoapps.testcase.IntegrationTestCase" class="method navigator-link" hash-for-method="iTC_06VerifyMultipleCartProducts(Blue Jeans, 6)">iTC_06VerifyMultipleCartProducts(Blue Jeans, 6)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelExecution" title="com.demoapps.testcase.IntegrationTestCase" class="method navigator-link" hash-for-method="iTC_06VerifyMultipleCartProducts(Fiction, 5)">iTC_06VerifyMultipleCartProducts(Fiction, 5)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelExecution" title="com.demoapps.testcase.IntegrationTestCase" class="method navigator-link" hash-for-method="iTC_06VerifyMultipleCartProducts(Computing and Internet, 1)">iTC_06VerifyMultipleCartProducts(Computing and Internet, 1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelExecution" title="com.demoapps.testcase.IntegrationTestCase" class="method navigator-link" hash-for-method="iTC_06VerifyMultipleCartProducts(3rd Album, 3)">iTC_06VerifyMultipleCartProducts(3rd Album, 3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelExecution" title="com.demoapps.testcase.IntegrationTestCase" class="method navigator-link" hash-for-method="iTC_06VerifyMultipleCartProducts(Health Book, 4)">iTC_06VerifyMultipleCartProducts(Health Book, 4)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelExecution" title="com.demoapps.testcase.SmokeTestCase" class="method navigator-link" hash-for-method="smokeTC_02">smokeTC_02</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelExecution" title="com.demoapps.testcase.SmokeTestCase" class="method navigator-link" hash-for-method="smokeTC_03">smokeTC_03</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelExecution" title="com.demoapps.testcase.SmokeTestCase" class="method navigator-link" hash-for-method="smokeTC_04">smokeTC_04</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelExecution" title="com.demoapps.testcase.SmokeTestCase" class="method navigator-link" hash-for-method="smokeTC_06">smokeTC_06</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelExecution" title="com.demoapps.testcase.SmokeTestCase" class="method navigator-link" hash-for-method="smokeTc_07">smokeTc_07</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelExecution" title="com.demoapps.testcase.SmokeTestCase" class="method navigator-link" hash-for-method="verifyTitleOfApparelAndShoes">verifyTitleOfApparelAndShoes</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelExecution" title="com.demoapps.testcase.SmokeTestCase" class="method navigator-link" hash-for-method="verifyTitleOfBookPage">verifyTitleOfBookPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelExecution" title="com.demoapps.testcase.SmokeTestCase" class="method navigator-link" hash-for-method="verifyTitleOfElectronicsPage">verifyTitleOfElectronicsPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelExecution" title="com.demoapps.testcase.SmokeTestCase" class="method navigator-link" hash-for-method="verifyTitleOfJewelryPage">verifyTitleOfJewelryPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-ParallelExecution -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-ParallelExecution" class="panel ParallelExecution">
+          <div class="suite-ParallelExecution-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.demoapps.testcase.IntegrationTestCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="iTC_06VerifyMultipleCartProducts(Casual Golf Belt, 2)">
+                  </a> <!-- iTC_06VerifyMultipleCartProducts(Casual Golf Belt, 2) -->
+                  <span class="method-name">iTC_06VerifyMultipleCartProducts</span>
+                  <span class="parameters">(Casual Golf Belt,2)</span>
+                  <div class="stack-trace">com.demoappsframework.FrameWorkExpections.ApplicationExceptions: Failed to locate the element-[WaitingStratgey]-&gt;locateElement()
+	at com.demoappsframework.utilities.WaitingStratgey.locateElement(WaitingStratgey.java:30)
+	at com.demoappsframwork.PageLayers.WelcomePage.verifyMultipleProductsCart(WelcomePage.java:145)
+	at com.demoapps.testcase.IntegrationTestCase.iTC_06VerifyMultipleCartProducts(IntegrationTestCase.java:48)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 15 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ParallelExecution-class-failed -->
+          <div class="suite-ParallelExecution-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.demoapps.testcase.SmokeTestCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="smokeTC_01">
+                  </a> <!-- smokeTC_01 -->
+                  <span class="method-name">smokeTC_01</span>
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at com.demoapps.testcase.SmokeTestCase.smokeTC_01(SmokeTestCase.java:16)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 17 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ParallelExecution-class-failed -->
+          <div class="suite-ParallelExecution-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.demoapps.testcase.FuncationalTestCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="FC_01userRegistrationPage(Owen, Bernhard, ruby.sawayn@gmail.com, $83$X*&amp;, Female)">
+                  </a> <!-- FC_01userRegistrationPage(Owen, Bernhard, ruby.sawayn@gmail.com, $83$X*&, Female) -->
+                  <span class="method-name">FC_01userRegistrationPage</span>
+                  <span class="parameters">(Owen,Bernhard,ruby.sawayn@gmail.com,$83$X*&,Female)</span>
+                  <div class="stack-trace">com.demoappsframework.FrameWorkExpections.ApplicationExceptions: Failed to maximize browser-[BrowserControls]-&gt;maxmizeBrowser()
+	at com.demoappsframework.utilities.BrowserControls.maxmizeBrowser(BrowserControls.java:59)
+	at com.demoapps.testBase.BaseTest.browserSetup(BaseTest.java:55)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 13 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="FC_01userRegistrationPage(Tamika, Funk, ming.carter@gmail.com, $GRogFX, Female)">
+                  </a> <!-- FC_01userRegistrationPage(Tamika, Funk, ming.carter@gmail.com, $GRogFX, Female) -->
+                  <span class="method-name">FC_01userRegistrationPage</span>
+                  <span class="parameters">(Tamika,Funk,ming.carter@gmail.com,$GRogFX,Female)</span>
+                  <div class="stack-trace">com.demoappsframework.FrameWorkExpections.ApplicationExceptions: Failed to maximize browser-[BrowserControls]-&gt;maxmizeBrowser()
+	at com.demoappsframework.utilities.BrowserControls.maxmizeBrowser(BrowserControls.java:59)
+	at com.demoapps.testBase.BaseTest.browserSetup(BaseTest.java:55)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 13 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ParallelExecution-class-skipped -->
+          <div class="suite-ParallelExecution-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.demoapps.testcase.SmokeTestCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="smokeTC_01">
+                  </a> <!-- smokeTC_01 -->
+                  <span class="method-name">smokeTC_01</span>
+                  <div class="stack-trace">com.demoappsframework.FrameWorkExpections.ApplicationExceptions: Failed to maximize browser-[BrowserControls]-&gt;maxmizeBrowser()
+	at com.demoappsframework.utilities.BrowserControls.maxmizeBrowser(BrowserControls.java:59)
+	at com.demoapps.testBase.BaseTest.browserSetup(BaseTest.java:55)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 13 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="smokeTC_02">
+                  </a> <!-- smokeTC_02 -->
+                  <span class="method-name">smokeTC_02</span>
+                  <div class="stack-trace">com.demoappsframework.FrameWorkExpections.ApplicationExceptions: Failed to maximize browser-[BrowserControls]-&gt;maxmizeBrowser()
+	at com.demoappsframework.utilities.BrowserControls.maxmizeBrowser(BrowserControls.java:59)
+	at com.demoapps.testBase.BaseTest.browserSetup(BaseTest.java:55)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 13 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="smokeTC_03">
+                  </a> <!-- smokeTC_03 -->
+                  <span class="method-name">smokeTC_03</span>
+                  <div class="stack-trace">com.demoappsframework.FrameWorkExpections.ApplicationExceptions: Failed to maximize browser-[BrowserControls]-&gt;maxmizeBrowser()
+	at com.demoappsframework.utilities.BrowserControls.maxmizeBrowser(BrowserControls.java:59)
+	at com.demoapps.testBase.BaseTest.browserSetup(BaseTest.java:55)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 13 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="smokeTC_04">
+                  </a> <!-- smokeTC_04 -->
+                  <span class="method-name">smokeTC_04</span>
+                  <div class="stack-trace">com.demoappsframework.FrameWorkExpections.ApplicationExceptions: Failed to maximize browser-[BrowserControls]-&gt;maxmizeBrowser()
+	at com.demoappsframework.utilities.BrowserControls.maxmizeBrowser(BrowserControls.java:59)
+	at com.demoapps.testBase.BaseTest.browserSetup(BaseTest.java:55)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 13 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="smokeTC_06">
+                  </a> <!-- smokeTC_06 -->
+                  <span class="method-name">smokeTC_06</span>
+                  <div class="stack-trace">com.demoappsframework.FrameWorkExpections.ApplicationExceptions: Failed to maximize browser-[BrowserControls]-&gt;maxmizeBrowser()
+	at com.demoappsframework.utilities.BrowserControls.maxmizeBrowser(BrowserControls.java:59)
+	at com.demoapps.testBase.BaseTest.browserSetup(BaseTest.java:55)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 13 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="smokeTc_07">
+                  </a> <!-- smokeTc_07 -->
+                  <span class="method-name">smokeTc_07</span>
+                  <div class="stack-trace">com.demoappsframework.FrameWorkExpections.ApplicationExceptions: Failed to maximize browser-[BrowserControls]-&gt;maxmizeBrowser()
+	at com.demoappsframework.utilities.BrowserControls.maxmizeBrowser(BrowserControls.java:59)
+	at com.demoapps.testBase.BaseTest.browserSetup(BaseTest.java:55)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 13 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTitleOfApparelAndShoes">
+                  </a> <!-- verifyTitleOfApparelAndShoes -->
+                  <span class="method-name">verifyTitleOfApparelAndShoes</span>
+                  <div class="stack-trace">com.demoappsframework.FrameWorkExpections.ApplicationExceptions: Failed to maximize browser-[BrowserControls]-&gt;maxmizeBrowser()
+	at com.demoappsframework.utilities.BrowserControls.maxmizeBrowser(BrowserControls.java:59)
+	at com.demoapps.testBase.BaseTest.browserSetup(BaseTest.java:55)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 13 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTitleOfBookPage">
+                  </a> <!-- verifyTitleOfBookPage -->
+                  <span class="method-name">verifyTitleOfBookPage</span>
+                  <div class="stack-trace">com.demoappsframework.FrameWorkExpections.ApplicationExceptions: Failed to maximize browser-[BrowserControls]-&gt;maxmizeBrowser()
+	at com.demoappsframework.utilities.BrowserControls.maxmizeBrowser(BrowserControls.java:59)
+	at com.demoapps.testBase.BaseTest.browserSetup(BaseTest.java:55)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 13 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTitleOfElectronicsPage">
+                  </a> <!-- verifyTitleOfElectronicsPage -->
+                  <span class="method-name">verifyTitleOfElectronicsPage</span>
+                  <div class="stack-trace">com.demoappsframework.FrameWorkExpections.ApplicationExceptions: Failed to maximize browser-[BrowserControls]-&gt;maxmizeBrowser()
+	at com.demoappsframework.utilities.BrowserControls.maxmizeBrowser(BrowserControls.java:59)
+	at com.demoapps.testBase.BaseTest.browserSetup(BaseTest.java:55)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 13 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTitleOfJewelryPage">
+                  </a> <!-- verifyTitleOfJewelryPage -->
+                  <span class="method-name">verifyTitleOfJewelryPage</span>
+                  <div class="stack-trace">com.demoappsframework.FrameWorkExpections.ApplicationExceptions: Failed to maximize browser-[BrowserControls]-&gt;maxmizeBrowser()
+	at com.demoappsframework.utilities.BrowserControls.maxmizeBrowser(BrowserControls.java:59)
+	at com.demoapps.testBase.BaseTest.browserSetup(BaseTest.java:55)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 13 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ParallelExecution-class-skipped -->
+          <div class="suite-ParallelExecution-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.demoapps.testcase.IntegrationTestCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="iTC_06VerifyMultipleCartProducts(Health Book, 4)">
+                  </a> <!-- iTC_06VerifyMultipleCartProducts(Health Book, 4) -->
+                  <span class="method-name">iTC_06VerifyMultipleCartProducts</span>
+                  <span class="parameters">(Health Book,4)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="iTC_06VerifyMultipleCartProducts(Casual Golf Belt, 2)">
+                  </a> <!-- iTC_06VerifyMultipleCartProducts(Casual Golf Belt, 2) -->
+                  <span class="method-name">iTC_06VerifyMultipleCartProducts</span>
+                  <span class="parameters">(Casual Golf Belt,2)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="iTC_06VerifyMultipleCartProducts(Fiction, 5)">
+                  </a> <!-- iTC_06VerifyMultipleCartProducts(Fiction, 5) -->
+                  <span class="method-name">iTC_06VerifyMultipleCartProducts</span>
+                  <span class="parameters">(Fiction,5)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="iTC_06VerifyMultipleCartProducts(Blue Jeans, 6)">
+                  </a> <!-- iTC_06VerifyMultipleCartProducts(Blue Jeans, 6) -->
+                  <span class="method-name">iTC_06VerifyMultipleCartProducts</span>
+                  <span class="parameters">(Blue Jeans,6)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="iTC_06VerifyMultipleCartProducts(3rd Album, 3)">
+                  </a> <!-- iTC_06VerifyMultipleCartProducts(3rd Album, 3) -->
+                  <span class="method-name">iTC_06VerifyMultipleCartProducts</span>
+                  <span class="parameters">(3rd Album,3)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="iTC_06VerifyMultipleCartProducts(Computing and Internet, 1)">
+                  </a> <!-- iTC_06VerifyMultipleCartProducts(Computing and Internet, 1) -->
+                  <span class="method-name">iTC_06VerifyMultipleCartProducts</span>
+                  <span class="parameters">(Computing and Internet,1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="iTC_06VerifyMultipleCartProducts(Blue Jeans, 6)">
+                  </a> <!-- iTC_06VerifyMultipleCartProducts(Blue Jeans, 6) -->
+                  <span class="method-name">iTC_06VerifyMultipleCartProducts</span>
+                  <span class="parameters">(Blue Jeans,6)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="iTC_06VerifyMultipleCartProducts(Fiction, 5)">
+                  </a> <!-- iTC_06VerifyMultipleCartProducts(Fiction, 5) -->
+                  <span class="method-name">iTC_06VerifyMultipleCartProducts</span>
+                  <span class="parameters">(Fiction,5)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="iTC_06VerifyMultipleCartProducts(Computing and Internet, 1)">
+                  </a> <!-- iTC_06VerifyMultipleCartProducts(Computing and Internet, 1) -->
+                  <span class="method-name">iTC_06VerifyMultipleCartProducts</span>
+                  <span class="parameters">(Computing and Internet,1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="iTC_06VerifyMultipleCartProducts(3rd Album, 3)">
+                  </a> <!-- iTC_06VerifyMultipleCartProducts(3rd Album, 3) -->
+                  <span class="method-name">iTC_06VerifyMultipleCartProducts</span>
+                  <span class="parameters">(3rd Album,3)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="iTC_06VerifyMultipleCartProducts(Health Book, 4)">
+                  </a> <!-- iTC_06VerifyMultipleCartProducts(Health Book, 4) -->
+                  <span class="method-name">iTC_06VerifyMultipleCartProducts</span>
+                  <span class="parameters">(Health Book,4)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ParallelExecution-class-passed -->
+          <div class="suite-ParallelExecution-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.demoapps.testcase.SmokeTestCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="smokeTC_02">
+                  </a> <!-- smokeTC_02 -->
+                  <span class="method-name">smokeTC_02</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="smokeTC_03">
+                  </a> <!-- smokeTC_03 -->
+                  <span class="method-name">smokeTC_03</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="smokeTC_04">
+                  </a> <!-- smokeTC_04 -->
+                  <span class="method-name">smokeTC_04</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="smokeTC_06">
+                  </a> <!-- smokeTC_06 -->
+                  <span class="method-name">smokeTC_06</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="smokeTc_07">
+                  </a> <!-- smokeTc_07 -->
+                  <span class="method-name">smokeTc_07</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTitleOfApparelAndShoes">
+                  </a> <!-- verifyTitleOfApparelAndShoes -->
+                  <span class="method-name">verifyTitleOfApparelAndShoes</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTitleOfBookPage">
+                  </a> <!-- verifyTitleOfBookPage -->
+                  <span class="method-name">verifyTitleOfBookPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTitleOfElectronicsPage">
+                  </a> <!-- verifyTitleOfElectronicsPage -->
+                  <span class="method-name">verifyTitleOfElectronicsPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTitleOfJewelryPage">
+                  </a> <!-- verifyTitleOfJewelryPage -->
+                  <span class="method-name">verifyTitleOfJewelryPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ParallelExecution-class-passed -->
+        </div> <!-- panel ParallelExecution -->
+        <div panel-name="test-xml-ParallelExecution" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">E:\Automation\DemoAppsFramework\src\test\java\com.demoapps.runnerFile\ParallelExecution.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;ParallelExecution&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;io.qameta.allure.testng.AllureTestNg&quot;/&gt;
+    &lt;listener class-name=&quot;com.demoapps.Listeners.ReportsListeners&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;ChromeTest&quot;&gt;
+    &lt;parameter name=&quot;headlessMode&quot; value=&quot;true&quot;/&gt;
+    &lt;parameter name=&quot;privateMode&quot; value=&quot;true&quot;/&gt;
+    &lt;parameter name=&quot;browserName&quot; value=&quot;chrome&quot;/&gt;
+    &lt;packages&gt;
+      &lt;package name=&quot;com.demoapps.testcase&quot;/&gt;
+    &lt;/packages&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.demoapps.testcase.FuncationalTestCase&quot;/&gt;
+      &lt;class name=&quot;com.demoapps.testcase.IntegrationTestCase&quot;/&gt;
+      &lt;class name=&quot;com.demoapps.testcase.SmokeTestCase&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ChromeTest --&gt;
+  &lt;test thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;FireFoxTest&quot;&gt;
+    &lt;parameter name=&quot;headlessMode&quot; value=&quot;true&quot;/&gt;
+    &lt;parameter name=&quot;privateMode&quot; value=&quot;true&quot;/&gt;
+    &lt;parameter name=&quot;browserName&quot; value=&quot;firefox&quot;/&gt;
+    &lt;packages&gt;
+      &lt;package name=&quot;com.demoapps.testcase&quot;/&gt;
+    &lt;/packages&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.demoapps.testcase.FuncationalTestCase&quot;/&gt;
+      &lt;class name=&quot;com.demoapps.testcase.IntegrationTestCase&quot;/&gt;
+      &lt;class name=&quot;com.demoapps.testcase.SmokeTestCase&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- FireFoxTest --&gt;
+  &lt;test thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;EdgeTest&quot;&gt;
+    &lt;parameter name=&quot;headlessMode&quot; value=&quot;true&quot;/&gt;
+    &lt;parameter name=&quot;privateMode&quot; value=&quot;true&quot;/&gt;
+    &lt;parameter name=&quot;browserName&quot; value=&quot;edge&quot;/&gt;
+    &lt;packages&gt;
+      &lt;package name=&quot;com.demoapps.testcase&quot;/&gt;
+    &lt;/packages&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.demoapps.testcase.FuncationalTestCase&quot;/&gt;
+      &lt;class name=&quot;com.demoapps.testcase.IntegrationTestCase&quot;/&gt;
+      &lt;class name=&quot;com.demoapps.testcase.SmokeTestCase&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- EdgeTest --&gt;
+&lt;/suite&gt; &lt;!-- ParallelExecution --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-ParallelExecution" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for ParallelExecution</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">ChromeTest (3 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">FireFoxTest (3 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">EdgeTest (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-ParallelExecution" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for ParallelExecution</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-ParallelExecution" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for ParallelExecution</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_ParallelExecution');
+function tableData_ParallelExecution() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(34);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'iTC_06VerifyMultipleCartProducts')
+data.setCell(0, 2, 'com.demoapps.testcase.IntegrationTestCase')
+data.setCell(0, 3, 11824);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'iTC_06VerifyMultipleCartProducts')
+data.setCell(1, 2, 'com.demoapps.testcase.IntegrationTestCase')
+data.setCell(1, 3, 2603);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'iTC_06VerifyMultipleCartProducts')
+data.setCell(2, 2, 'com.demoapps.testcase.IntegrationTestCase')
+data.setCell(2, 3, 2416);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'iTC_06VerifyMultipleCartProducts')
+data.setCell(3, 2, 'com.demoapps.testcase.IntegrationTestCase')
+data.setCell(3, 3, 2350);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'iTC_06VerifyMultipleCartProducts')
+data.setCell(4, 2, 'com.demoapps.testcase.IntegrationTestCase')
+data.setCell(4, 3, 2318);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'iTC_06VerifyMultipleCartProducts')
+data.setCell(5, 2, 'com.demoapps.testcase.IntegrationTestCase')
+data.setCell(5, 3, 2266);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'iTC_06VerifyMultipleCartProducts')
+data.setCell(6, 2, 'com.demoapps.testcase.IntegrationTestCase')
+data.setCell(6, 3, 2251);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'iTC_06VerifyMultipleCartProducts')
+data.setCell(7, 2, 'com.demoapps.testcase.IntegrationTestCase')
+data.setCell(7, 3, 2198);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'iTC_06VerifyMultipleCartProducts')
+data.setCell(8, 2, 'com.demoapps.testcase.IntegrationTestCase')
+data.setCell(8, 3, 2168);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'iTC_06VerifyMultipleCartProducts')
+data.setCell(9, 2, 'com.demoapps.testcase.IntegrationTestCase')
+data.setCell(9, 3, 1991);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'iTC_06VerifyMultipleCartProducts')
+data.setCell(10, 2, 'com.demoapps.testcase.IntegrationTestCase')
+data.setCell(10, 3, 1920);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'iTC_06VerifyMultipleCartProducts')
+data.setCell(11, 2, 'com.demoapps.testcase.IntegrationTestCase')
+data.setCell(11, 3, 1807);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'verifyTitleOfBookPage')
+data.setCell(12, 2, 'com.demoapps.testcase.SmokeTestCase')
+data.setCell(12, 3, 963);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'verifyTitleOfApparelAndShoes')
+data.setCell(13, 2, 'com.demoapps.testcase.SmokeTestCase')
+data.setCell(13, 3, 942);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'verifyTitleOfJewelryPage')
+data.setCell(14, 2, 'com.demoapps.testcase.SmokeTestCase')
+data.setCell(14, 3, 768);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'verifyTitleOfElectronicsPage')
+data.setCell(15, 2, 'com.demoapps.testcase.SmokeTestCase')
+data.setCell(15, 3, 748);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'smokeTc_07')
+data.setCell(16, 2, 'com.demoapps.testcase.SmokeTestCase')
+data.setCell(16, 3, 573);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'smokeTC_03')
+data.setCell(17, 2, 'com.demoapps.testcase.SmokeTestCase')
+data.setCell(17, 3, 31);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'smokeTC_01')
+data.setCell(18, 2, 'com.demoapps.testcase.SmokeTestCase')
+data.setCell(18, 3, 30);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'smokeTC_02')
+data.setCell(19, 2, 'com.demoapps.testcase.SmokeTestCase')
+data.setCell(19, 3, 26);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'smokeTC_04')
+data.setCell(20, 2, 'com.demoapps.testcase.SmokeTestCase')
+data.setCell(20, 3, 26);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'smokeTC_06')
+data.setCell(21, 2, 'com.demoapps.testcase.SmokeTestCase')
+data.setCell(21, 3, 21);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'smokeTC_03')
+data.setCell(22, 2, 'com.demoapps.testcase.SmokeTestCase')
+data.setCell(22, 3, 0);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'smokeTC_04')
+data.setCell(23, 2, 'com.demoapps.testcase.SmokeTestCase')
+data.setCell(23, 3, 0);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'FC_01userRegistrationPage')
+data.setCell(24, 2, 'com.demoapps.testcase.FuncationalTestCase')
+data.setCell(24, 3, 0);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'verifyTitleOfElectronicsPage')
+data.setCell(25, 2, 'com.demoapps.testcase.SmokeTestCase')
+data.setCell(25, 3, 0);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'verifyTitleOfApparelAndShoes')
+data.setCell(26, 2, 'com.demoapps.testcase.SmokeTestCase')
+data.setCell(26, 3, 0);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'verifyTitleOfJewelryPage')
+data.setCell(27, 2, 'com.demoapps.testcase.SmokeTestCase')
+data.setCell(27, 3, 0);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'smokeTC_01')
+data.setCell(28, 2, 'com.demoapps.testcase.SmokeTestCase')
+data.setCell(28, 3, 0);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'smokeTC_06')
+data.setCell(29, 2, 'com.demoapps.testcase.SmokeTestCase')
+data.setCell(29, 3, 0);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'smokeTc_07')
+data.setCell(30, 2, 'com.demoapps.testcase.SmokeTestCase')
+data.setCell(30, 3, 0);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'smokeTC_02')
+data.setCell(31, 2, 'com.demoapps.testcase.SmokeTestCase')
+data.setCell(31, 3, 0);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'verifyTitleOfBookPage')
+data.setCell(32, 2, 'com.demoapps.testcase.SmokeTestCase')
+data.setCell(32, 3, 0);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'FC_01userRegistrationPage')
+data.setCell(33, 2, 'com.demoapps.testcase.FuncationalTestCase')
+data.setCell(33, 3, 0);
+window.suiteTableData['ParallelExecution']= { tableData: data, tableDiv: 'times-div-ParallelExecution'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 40 seconds</span>
+              <div id="times-div-ParallelExecution">
+              </div> <!-- times-div-ParallelExecution -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-ParallelExecution" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for ParallelExecution</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">iTC_06VerifyMultipleCartProducts(Health Book, 4)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test execution started	iTC_06VerifyMultipleCartProducts</span>
+                <span class="reporter-method-output">Test execution Success</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">iTC_06VerifyMultipleCartProducts(Casual Golf Belt, 2)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test execution started	iTC_06VerifyMultipleCartProducts</span>
+                <span class="reporter-method-output">Test execution Success</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">iTC_06VerifyMultipleCartProducts(Fiction, 5)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test execution started	iTC_06VerifyMultipleCartProducts</span>
+                <span class="reporter-method-output">Test execution Success</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">iTC_06VerifyMultipleCartProducts(Blue Jeans, 6)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test execution started	iTC_06VerifyMultipleCartProducts</span>
+                <span class="reporter-method-output">Test execution Success</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">iTC_06VerifyMultipleCartProducts(3rd Album, 3)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test execution started	iTC_06VerifyMultipleCartProducts</span>
+                <span class="reporter-method-output">Test execution Success</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">iTC_06VerifyMultipleCartProducts(Computing and Internet, 1)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test execution started	iTC_06VerifyMultipleCartProducts</span>
+                <span class="reporter-method-output">Test execution Success</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">smokeTC_03</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test execution Skipped	smokeTC_03</span>
+                <span class="reporter-method-output">Test execution started	smokeTC_04</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">smokeTC_04</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test execution Skipped	smokeTC_04</span>
+                <span class="reporter-method-output">Test execution started	smokeTC_06</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">FC_01userRegistrationPage(Owen, Bernhard, ruby.sawayn@gmail.com, $83$X*&, Female)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test execution Skipped	FC_01userRegistrationPage</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyTitleOfElectronicsPage</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test execution Skipped	verifyTitleOfElectronicsPage</span>
+                <span class="reporter-method-output">Test execution started	verifyTitleOfJewelryPage</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyTitleOfApparelAndShoes</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test execution Skipped	verifyTitleOfApparelAndShoes</span>
+                <span class="reporter-method-output">Test execution started	verifyTitleOfBookPage</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyTitleOfJewelryPage</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test execution Skipped	verifyTitleOfJewelryPage</span>
+                <span class="reporter-method-output">Suite execution finished	FireFoxTest</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">smokeTC_01</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test execution Skipped	smokeTC_01</span>
+                <span class="reporter-method-output">Test execution started	smokeTC_02</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">smokeTC_06</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test execution Skipped	smokeTC_06</span>
+                <span class="reporter-method-output">Test execution started	smokeTc_07</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">smokeTc_07</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test execution Skipped	smokeTc_07</span>
+                <span class="reporter-method-output">Test execution started	verifyTitleOfApparelAndShoes</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">smokeTC_02</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test execution Skipped	smokeTC_02</span>
+                <span class="reporter-method-output">Test execution started	smokeTC_03</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyTitleOfBookPage</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test execution Skipped	verifyTitleOfBookPage</span>
+                <span class="reporter-method-output">Test execution started	verifyTitleOfElectronicsPage</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">iTC_06VerifyMultipleCartProducts(Blue Jeans, 6)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test execution started	iTC_06VerifyMultipleCartProducts</span>
+                <span class="reporter-method-output">Test execution Success</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">smokeTC_02</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test execution started	smokeTC_02</span>
+                <span class="reporter-method-output">Test execution Success</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">smokeTc_07</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test execution started	smokeTc_07</span>
+                <span class="reporter-method-output">Page Title: Demo Web Shop. Register</span>
+                <span class="reporter-method-output">Test execution Success</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">iTC_06VerifyMultipleCartProducts(Fiction, 5)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test execution started	iTC_06VerifyMultipleCartProducts</span>
+                <span class="reporter-method-output">Test execution Success</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">smokeTC_04</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test execution started	smokeTC_04</span>
+                <span class="reporter-method-output">Test execution Success</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">iTC_06VerifyMultipleCartProducts(Computing and Internet, 1)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test execution started	iTC_06VerifyMultipleCartProducts</span>
+                <span class="reporter-method-output">Test execution Success</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyTitleOfElectronicsPage</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test execution started	verifyTitleOfElectronicsPage</span>
+                <span class="reporter-method-output">Page Title: Demo Web Shop. Electronics</span>
+                <span class="reporter-method-output">Test execution Success</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">smokeTC_03</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test execution started	smokeTC_03</span>
+                <span class="reporter-method-output">Test execution Success</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyTitleOfJewelryPage</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test execution started	verifyTitleOfJewelryPage</span>
+                <span class="reporter-method-output">Page Title: Demo Web Shop. Jewelry</span>
+                <span class="reporter-method-output">Test execution Success</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyTitleOfApparelAndShoes</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test execution started	verifyTitleOfApparelAndShoes</span>
+                <span class="reporter-method-output">Page Title: Demo Web Shop. Apparel & Shoes</span>
+                <span class="reporter-method-output">Test execution Success</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">smokeTC_06</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test execution started	smokeTC_06</span>
+                <span class="reporter-method-output">Test execution Success</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">iTC_06VerifyMultipleCartProducts(3rd Album, 3)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test execution started	iTC_06VerifyMultipleCartProducts</span>
+                <span class="reporter-method-output">Test execution Success</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyTitleOfBookPage</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test execution started	verifyTitleOfBookPage</span>
+                <span class="reporter-method-output">Page Title: Demo Web Shop. Books</span>
+                <span class="reporter-method-output">Test execution Success</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">iTC_06VerifyMultipleCartProducts(Health Book, 4)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test execution started	iTC_06VerifyMultipleCartProducts</span>
+                <span class="reporter-method-output">Test execution Success</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">smokeTC_01</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test execution started	smokeTC_01</span>
+                <span class="reporter-method-output">Test execution Failed	smokeTC_01</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">iTC_06VerifyMultipleCartProducts(Casual Golf Belt, 2)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test execution started	iTC_06VerifyMultipleCartProducts</span>
+                <span class="reporter-method-output">Test execution Failed	iTC_06VerifyMultipleCartProducts</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">FC_01userRegistrationPage(Tamika, Funk, ming.carter@gmail.com, $GRogFX, Female)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test execution Skipped	FC_01userRegistrationPage</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-ParallelExecution" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-ParallelExecution" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.demoapps.testcase.FuncationalTestCase</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">browserSetup(chrome, true, true)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">browserSetup(firefox, true, true)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">browserSetup(edge, true, true)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">FC_01userRegistrationPage(Tamika, Funk, ming.carter@gmail.com, $GRogFX, Female)</span>
+                <span class="method-start">3337 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">FC_01userRegistrationPage(Owen, Bernhard, ruby.sawayn@gmail.com, $83$X*&, Female)</span>
+                <span class="method-start">3337 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenShotChainTest</span>
+                <span class="method-start">3357 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenShotChainTest</span>
+                <span class="method-start">3357 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">3373 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-class after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">3373 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.demoapps.testcase.IntegrationTestCase</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">browserSetup(chrome, true, true)</span>
+                <span class="method-start">3378 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">browserSetup(firefox, true, true)</span>
+                <span class="method-start">3378 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.demoapps.testcase.FuncationalTestCase</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">FC_01userRegistrationPage(Valeri, Beahan, jackeline.leannon@hotmail.com, 6MO@cWI, Male)</span>
+                <span class="method-start">5759 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenShotChainTest([TestResult name=FC_01userRegistrationPage status=FAILURE method=FuncationalTestCase.FC_01userRegist...)</span>
+                <span class="method-start">6888 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">6987 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.demoapps.testcase.IntegrationTestCase</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">browserSetup(edge, true, true)</span>
+                <span class="method-start">7104 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">iTC_06VerifyMultipleCartProducts(Computing and Internet, 1)</span>
+                <span class="method-start">9212 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">iTC_06VerifyMultipleCartProducts(Computing and Internet, 1)</span>
+                <span class="method-start">9571 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenShotChainTest([TestResult name=iTC_06VerifyMultipleCartProducts status=SUCCESS method=IntegrationTestCase.iTC_06Ve...)</span>
+                <span class="method-start">11135 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">iTC_06VerifyMultipleCartProducts(Casual Golf Belt, 2)</span>
+                <span class="method-start">11137 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenShotChainTest([TestResult name=iTC_06VerifyMultipleCartProducts status=SUCCESS method=IntegrationTestCase.iTC_06Ve...)</span>
+                <span class="method-start">11891 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">iTC_06VerifyMultipleCartProducts(Casual Golf Belt, 2)</span>
+                <span class="method-start">11894 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">iTC_06VerifyMultipleCartProducts(Computing and Internet, 1)</span>
+                <span class="method-start">12288 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenShotChainTest([TestResult name=iTC_06VerifyMultipleCartProducts status=SUCCESS method=IntegrationTestCase.iTC_06Ve...)</span>
+                <span class="method-start">14065 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">iTC_06VerifyMultipleCartProducts(3rd Album, 3)</span>
+                <span class="method-start">14066 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenShotChainTest([TestResult name=iTC_06VerifyMultipleCartProducts status=SUCCESS method=IntegrationTestCase.iTC_06Ve...)</span>
+                <span class="method-start">16266 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">iTC_06VerifyMultipleCartProducts(Health Book, 4)</span>
+                <span class="method-start">16267 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenShotChainTest([TestResult name=iTC_06VerifyMultipleCartProducts status=SUCCESS method=IntegrationTestCase.iTC_06Ve...)</span>
+                <span class="method-start">18536 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">iTC_06VerifyMultipleCartProducts(Fiction, 5)</span>
+                <span class="method-start">18538 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenShotChainTest([TestResult name=iTC_06VerifyMultipleCartProducts status=SUCCESS method=IntegrationTestCase.iTC_06Ve...)</span>
+                <span class="method-start">20956 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">iTC_06VerifyMultipleCartProducts(Blue Jeans, 6)</span>
+                <span class="method-start">20958 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenShotChainTest([TestResult name=iTC_06VerifyMultipleCartProducts status=FAILURE method=IntegrationTestCase.iTC_06Ve...)</span>
+                <span class="method-start">22965 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">iTC_06VerifyMultipleCartProducts(3rd Album, 3)</span>
+                <span class="method-start">23041 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenShotChainTest([TestResult name=iTC_06VerifyMultipleCartProducts status=SUCCESS method=IntegrationTestCase.iTC_06Ve...)</span>
+                <span class="method-start">23310 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">23312 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.demoapps.testcase.SmokeTestCase</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">browserSetup(firefox, true, true)</span>
+                <span class="method-start">23556 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.demoapps.testcase.IntegrationTestCase</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">attachScreenShotChainTest([TestResult name=iTC_06VerifyMultipleCartProducts status=FAILURE method=IntegrationTestCase.iTC_06Ve...)</span>
+                <span class="method-start">24245 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">iTC_06VerifyMultipleCartProducts(Casual Golf Belt, 2)</span>
+                <span class="method-start">24254 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenShotChainTest</span>
+                <span class="method-start">24260 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">iTC_06VerifyMultipleCartProducts(3rd Album, 3)</span>
+                <span class="method-start">24263 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenShotChainTest</span>
+                <span class="method-start">24269 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">iTC_06VerifyMultipleCartProducts(Health Book, 4)</span>
+                <span class="method-start">24272 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenShotChainTest</span>
+                <span class="method-start">24279 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">iTC_06VerifyMultipleCartProducts(Fiction, 5)</span>
+                <span class="method-start">24281 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenShotChainTest</span>
+                <span class="method-start">24288 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">iTC_06VerifyMultipleCartProducts(Blue Jeans, 6)</span>
+                <span class="method-start">24290 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenShotChainTest</span>
+                <span class="method-start">24297 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">24299 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.demoapps.testcase.SmokeTestCase</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">browserSetup(edge, true, true)</span>
+                <span class="method-start">24300 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.demoapps.testcase.IntegrationTestCase</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenShotChainTest([TestResult name=iTC_06VerifyMultipleCartProducts status=SUCCESS method=IntegrationTestCase.iTC_06Ve...)</span>
+                <span class="method-start">25036 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">iTC_06VerifyMultipleCartProducts(Health Book, 4)</span>
+                <span class="method-start">25038 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.demoapps.testcase.SmokeTestCase</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">smokeTC_01</span>
+                <span class="method-start">25757 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenShotChainTest</span>
+                <span class="method-start">25763 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">smokeTC_02</span>
+                <span class="method-start">25765 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenShotChainTest</span>
+                <span class="method-start">25770 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">smokeTC_03</span>
+                <span class="method-start">25773 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenShotChainTest</span>
+                <span class="method-start">25779 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">smokeTC_04</span>
+                <span class="method-start">25782 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenShotChainTest</span>
+                <span class="method-start">25787 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">smokeTC_06</span>
+                <span class="method-start">25790 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenShotChainTest</span>
+                <span class="method-start">25795 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">smokeTc_07</span>
+                <span class="method-start">25798 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenShotChainTest</span>
+                <span class="method-start">25802 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">verifyTitleOfApparelAndShoes</span>
+                <span class="method-start">25805 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenShotChainTest</span>
+                <span class="method-start">25818 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">verifyTitleOfBookPage</span>
+                <span class="method-start">25820 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenShotChainTest</span>
+                <span class="method-start">25825 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">verifyTitleOfElectronicsPage</span>
+                <span class="method-start">25827 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenShotChainTest</span>
+                <span class="method-start">25831 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">verifyTitleOfJewelryPage</span>
+                <span class="method-start">25833 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenShotChainTest</span>
+                <span class="method-start">25837 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">25839 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.demoapps.testcase.IntegrationTestCase</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenShotChainTest([TestResult name=iTC_06VerifyMultipleCartProducts status=SUCCESS method=IntegrationTestCase.iTC_06Ve...)</span>
+                <span class="method-start">27292 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">iTC_06VerifyMultipleCartProducts(Fiction, 5)</span>
+                <span class="method-start">27294 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.demoapps.testcase.SmokeTestCase</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">smokeTC_01</span>
+                <span class="method-start">29876 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.demoapps.testcase.IntegrationTestCase</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenShotChainTest([TestResult name=iTC_06VerifyMultipleCartProducts status=SUCCESS method=IntegrationTestCase.iTC_06Ve...)</span>
+                <span class="method-start">29899 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">iTC_06VerifyMultipleCartProducts(Blue Jeans, 6)</span>
+                <span class="method-start">29901 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.demoapps.testcase.SmokeTestCase</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenShotChainTest([TestResult name=smokeTC_01 status=FAILURE method=SmokeTestCase.smokeTC_01()[pri:0, instance:com.dem...)</span>
+                <span class="method-start">29977 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">smokeTC_02</span>
+                <span class="method-start">30072 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenShotChainTest([TestResult name=smokeTC_02 status=SUCCESS method=SmokeTestCase.smokeTC_02()[pri:0, instance:com.dem...)</span>
+                <span class="method-start">30106 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">smokeTC_03</span>
+                <span class="method-start">30109 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenShotChainTest([TestResult name=smokeTC_03 status=SUCCESS method=SmokeTestCase.smokeTC_03()[pri:0, instance:com.dem...)</span>
+                <span class="method-start">30139 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">smokeTC_04</span>
+                <span class="method-start">30142 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenShotChainTest([TestResult name=smokeTC_04 status=SUCCESS method=SmokeTestCase.smokeTC_04()[pri:0, instance:com.dem...)</span>
+                <span class="method-start">30173 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">smokeTC_06</span>
+                <span class="method-start">30176 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenShotChainTest([TestResult name=smokeTC_06 status=SUCCESS method=SmokeTestCase.smokeTC_06()[pri:0, instance:com.dem...)</span>
+                <span class="method-start">30206 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">smokeTc_07</span>
+                <span class="method-start">30208 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenShotChainTest([TestResult name=smokeTc_07 status=SUCCESS method=SmokeTestCase.smokeTc_07()[pri:0, instance:com.dem...)</span>
+                <span class="method-start">30830 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.demoapps.testcase.IntegrationTestCase</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenShotChainTest([TestResult name=iTC_06VerifyMultipleCartProducts status=SUCCESS method=IntegrationTestCase.iTC_06Ve...)</span>
+                <span class="method-start">31710 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">31711 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.demoapps.testcase.SmokeTestCase</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">browserSetup(chrome, true, true)</span>
+                <span class="method-start">31931 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">smokeTC_01</span>
+                <span class="method-start">36110 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenShotChainTest([TestResult name=smokeTC_01 status=FAILURE method=SmokeTestCase.smokeTC_01()[pri:0, instance:com.dem...)</span>
+                <span class="method-start">36185 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">smokeTC_02</span>
+                <span class="method-start">36281 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenShotChainTest([TestResult name=smokeTC_02 status=SUCCESS method=SmokeTestCase.smokeTC_02()[pri:0, instance:com.dem...)</span>
+                <span class="method-start">36309 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">smokeTC_03</span>
+                <span class="method-start">36312 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenShotChainTest([TestResult name=smokeTC_03 status=SUCCESS method=SmokeTestCase.smokeTC_03()[pri:0, instance:com.dem...)</span>
+                <span class="method-start">36345 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">smokeTC_04</span>
+                <span class="method-start">36348 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenShotChainTest([TestResult name=smokeTC_04 status=SUCCESS method=SmokeTestCase.smokeTC_04()[pri:0, instance:com.dem...)</span>
+                <span class="method-start">36375 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">smokeTC_06</span>
+                <span class="method-start">36377 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenShotChainTest([TestResult name=smokeTC_06 status=SUCCESS method=SmokeTestCase.smokeTC_06()[pri:0, instance:com.dem...)</span>
+                <span class="method-start">36400 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">smokeTc_07</span>
+                <span class="method-start">36402 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenShotChainTest([TestResult name=smokeTc_07 status=SUCCESS method=SmokeTestCase.smokeTc_07()[pri:0, instance:com.dem...)</span>
+                <span class="method-start">36976 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">verifyTitleOfApparelAndShoes</span>
+                <span class="method-start">36978 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenShotChainTest([TestResult name=verifyTitleOfApparelAndShoes status=SUCCESS method=SmokeTestCase.verifyTitleOfAppar...)</span>
+                <span class="method-start">37921 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">verifyTitleOfBookPage</span>
+                <span class="method-start">37923 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenShotChainTest([TestResult name=verifyTitleOfBookPage status=SUCCESS method=SmokeTestCase.verifyTitleOfBookPage()[p...)</span>
+                <span class="method-start">38887 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">verifyTitleOfElectronicsPage</span>
+                <span class="method-start">38889 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenShotChainTest([TestResult name=verifyTitleOfElectronicsPage status=SUCCESS method=SmokeTestCase.verifyTitleOfElect...)</span>
+                <span class="method-start">39639 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">verifyTitleOfJewelryPage</span>
+                <span class="method-start">39641 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenShotChainTest([TestResult name=verifyTitleOfJewelryPage status=SUCCESS method=SmokeTestCase.verifyTitleOfJewelryPa...)</span>
+                <span class="method-start">40410 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">40412 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

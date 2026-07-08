@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="ParallelExecution" thread-count="3" parallel="tests">
+<listeners>
+		<listener class-name="io.qameta.allure.testng.AllureTestNg" />
+		<listener class-name="com.demoapps.Listeners.ReportsListeners" />
+				<listener class-name="com.demoapps.TestListeners.RetryTransformer"></listener>
+
+	</listeners>
+	 <test name="ChromeTest">
+  <parameter name="browserName" value="chrome"></parameter>
+   <parameter name="headlessMode" value="true"></parameter>
+    <parameter name="privateMode" value="true"></parameter> 
+    <packages>
+     <package name="com.demoapps.testcase"></package>
+    </packages>
+    </test>
+     <test name="FireFoxTest">
+   <parameter name="browserName" value="firefox"></parameter>
+   <parameter name="headlessMode" value="true"></parameter>
+    <parameter name="privateMode" value="true"></parameter> 
+       <packages>
+     <package name="com.demoapps.testcase"></package>
+    </packages>
+      </test>
+      <test name="EdgeTest">
+  <parameter name="browserName" value="edge"></parameter>
+   <parameter name="headlessMode" value="true"></parameter>
+    <parameter name="privateMode" value="true"></parameter>
+    <packages>
+     <package name="com.demoapps.testcase"></package>
+    </packages>
+     </test>
+</suite> <!-- Suite -->

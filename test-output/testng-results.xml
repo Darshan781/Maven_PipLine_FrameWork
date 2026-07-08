@@ -1,0 +1,1958 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="34" passed="20" failed="2" skipped="12">
+  <reporter-output>
+    <line>
+      <![CDATA[Suite execution startedChromeTest]]>
+    </line>
+    <line>
+      <![CDATA[Test execution startedFC_01userRegistrationPage]]>
+    </line>
+    <line>
+      <![CDATA[Test execution SkippedFC_01userRegistrationPage]]>
+    </line>
+    <line>
+      <![CDATA[Suite execution startedFireFoxTest]]>
+    </line>
+    <line>
+      <![CDATA[Test execution startedFC_01userRegistrationPage]]>
+    </line>
+    <line>
+      <![CDATA[Test execution SkippedFC_01userRegistrationPage]]>
+    </line>
+    <line>
+      <![CDATA[Suite execution startedEdgeTest]]>
+    </line>
+    <line>
+      <![CDATA[The launched Browser is edge]]>
+    </line>
+    <line>
+      <![CDATA[The launched Browser is in headlessmode true]]>
+    </line>
+    <line>
+      <![CDATA[The launched Browser is in incognitomode true]]>
+    </line>
+    <line>
+      <![CDATA[Test execution startedFC_01userRegistrationPage]]>
+    </line>
+    <line>
+      <![CDATA[Test execution FailedFC_01userRegistrationPage]]>
+    </line>
+    <line>
+      <![CDATA[Capturing screenshot for failed test caseFC_01userRegistrationPage]]>
+    </line>
+    <line>
+      <![CDATA[The launched browser is closed]]>
+    </line>
+    <line>
+      <![CDATA[The launched Browser is chrome]]>
+    </line>
+    <line>
+      <![CDATA[The launched Browser is in headlessmode true]]>
+    </line>
+    <line>
+      <![CDATA[The launched Browser is in incognitomode true]]>
+    </line>
+    <line>
+      <![CDATA[Test execution startediTC_06VerifyMultipleCartProducts]]>
+    </line>
+    <line>
+      <![CDATA[The launched Browser is firefox]]>
+    </line>
+    <line>
+      <![CDATA[The launched Browser is in headlessmode true]]>
+    </line>
+    <line>
+      <![CDATA[The launched Browser is in incognitomode true]]>
+    </line>
+    <line>
+      <![CDATA[Test execution startediTC_06VerifyMultipleCartProducts]]>
+    </line>
+    <line>
+      <![CDATA[Test execution Success]]>
+    </line>
+    <line>
+      <![CDATA[Test execution startediTC_06VerifyMultipleCartProducts]]>
+    </line>
+    <line>
+      <![CDATA[Test execution Success]]>
+    </line>
+    <line>
+      <![CDATA[Test execution startediTC_06VerifyMultipleCartProducts]]>
+    </line>
+    <line>
+      <![CDATA[The launched Browser is edge]]>
+    </line>
+    <line>
+      <![CDATA[The launched Browser is in headlessmode true]]>
+    </line>
+    <line>
+      <![CDATA[The launched Browser is in incognitomode true]]>
+    </line>
+    <line>
+      <![CDATA[Test execution startediTC_06VerifyMultipleCartProducts]]>
+    </line>
+    <line>
+      <![CDATA[Test execution Success]]>
+    </line>
+    <line>
+      <![CDATA[Test execution startediTC_06VerifyMultipleCartProducts]]>
+    </line>
+    <line>
+      <![CDATA[Test execution Success]]>
+    </line>
+    <line>
+      <![CDATA[Test execution startediTC_06VerifyMultipleCartProducts]]>
+    </line>
+    <line>
+      <![CDATA[Test execution Success]]>
+    </line>
+    <line>
+      <![CDATA[Test execution startediTC_06VerifyMultipleCartProducts]]>
+    </line>
+    <line>
+      <![CDATA[Test execution Success]]>
+    </line>
+    <line>
+      <![CDATA[Test execution startediTC_06VerifyMultipleCartProducts]]>
+    </line>
+    <line>
+      <![CDATA[Test execution FailediTC_06VerifyMultipleCartProducts]]>
+    </line>
+    <line>
+      <![CDATA[Capturing screenshot for failed test caseiTC_06VerifyMultipleCartProducts]]>
+    </line>
+    <line>
+      <![CDATA[Test execution startediTC_06VerifyMultipleCartProducts]]>
+    </line>
+    <line>
+      <![CDATA[Test execution Success]]>
+    </line>
+    <line>
+      <![CDATA[The launched browser is closed]]>
+    </line>
+    <line>
+      <![CDATA[Test execution FailediTC_06VerifyMultipleCartProducts]]>
+    </line>
+    <line>
+      <![CDATA[Capturing screenshot for failed test caseiTC_06VerifyMultipleCartProducts]]>
+    </line>
+    <line>
+      <![CDATA[Test execution startediTC_06VerifyMultipleCartProducts]]>
+    </line>
+    <line>
+      <![CDATA[Test execution SkippediTC_06VerifyMultipleCartProducts]]>
+    </line>
+    <line>
+      <![CDATA[Test execution startediTC_06VerifyMultipleCartProducts]]>
+    </line>
+    <line>
+      <![CDATA[Test execution SkippediTC_06VerifyMultipleCartProducts]]>
+    </line>
+    <line>
+      <![CDATA[Test execution startediTC_06VerifyMultipleCartProducts]]>
+    </line>
+    <line>
+      <![CDATA[Test execution SkippediTC_06VerifyMultipleCartProducts]]>
+    </line>
+    <line>
+      <![CDATA[Test execution startediTC_06VerifyMultipleCartProducts]]>
+    </line>
+    <line>
+      <![CDATA[Test execution SkippediTC_06VerifyMultipleCartProducts]]>
+    </line>
+    <line>
+      <![CDATA[Test execution startediTC_06VerifyMultipleCartProducts]]>
+    </line>
+    <line>
+      <![CDATA[Test execution SkippediTC_06VerifyMultipleCartProducts]]>
+    </line>
+    <line>
+      <![CDATA[Test execution Success]]>
+    </line>
+    <line>
+      <![CDATA[Test execution startediTC_06VerifyMultipleCartProducts]]>
+    </line>
+    <line>
+      <![CDATA[Test execution startedsmokeTC_01]]>
+    </line>
+    <line>
+      <![CDATA[Test execution SkippedsmokeTC_01]]>
+    </line>
+    <line>
+      <![CDATA[Test execution startedsmokeTC_02]]>
+    </line>
+    <line>
+      <![CDATA[Test execution SkippedsmokeTC_02]]>
+    </line>
+    <line>
+      <![CDATA[Test execution startedsmokeTC_03]]>
+    </line>
+    <line>
+      <![CDATA[Test execution SkippedsmokeTC_03]]>
+    </line>
+    <line>
+      <![CDATA[Test execution startedsmokeTC_04]]>
+    </line>
+    <line>
+      <![CDATA[Test execution SkippedsmokeTC_04]]>
+    </line>
+    <line>
+      <![CDATA[Test execution startedsmokeTC_06]]>
+    </line>
+    <line>
+      <![CDATA[Test execution SkippedsmokeTC_06]]>
+    </line>
+    <line>
+      <![CDATA[Test execution startedsmokeTc_07]]>
+    </line>
+    <line>
+      <![CDATA[Test execution SkippedsmokeTc_07]]>
+    </line>
+    <line>
+      <![CDATA[Test execution startedverifyTitleOfApparelAndShoes]]>
+    </line>
+    <line>
+      <![CDATA[Test execution SkippedverifyTitleOfApparelAndShoes]]>
+    </line>
+    <line>
+      <![CDATA[Test execution startedverifyTitleOfBookPage]]>
+    </line>
+    <line>
+      <![CDATA[Test execution SkippedverifyTitleOfBookPage]]>
+    </line>
+    <line>
+      <![CDATA[Test execution startedverifyTitleOfElectronicsPage]]>
+    </line>
+    <line>
+      <![CDATA[Test execution SkippedverifyTitleOfElectronicsPage]]>
+    </line>
+    <line>
+      <![CDATA[Test execution startedverifyTitleOfJewelryPage]]>
+    </line>
+    <line>
+      <![CDATA[Test execution SkippedverifyTitleOfJewelryPage]]>
+    </line>
+    <line>
+      <![CDATA[Suite execution finishedFireFoxTest]]>
+    </line>
+    <line>
+      <![CDATA[Test execution Success]]>
+    </line>
+    <line>
+      <![CDATA[Test execution startediTC_06VerifyMultipleCartProducts]]>
+    </line>
+    <line>
+      <![CDATA[The launched Browser is edge]]>
+    </line>
+    <line>
+      <![CDATA[The launched Browser is in headlessmode true]]>
+    </line>
+    <line>
+      <![CDATA[The launched Browser is in incognitomode true]]>
+    </line>
+    <line>
+      <![CDATA[Test execution startedsmokeTC_01]]>
+    </line>
+    <line>
+      <![CDATA[Test execution Success]]>
+    </line>
+    <line>
+      <![CDATA[Test execution startediTC_06VerifyMultipleCartProducts]]>
+    </line>
+    <line>
+      <![CDATA[Test execution FailedsmokeTC_01]]>
+    </line>
+    <line>
+      <![CDATA[Capturing screenshot for failed test casesmokeTC_01]]>
+    </line>
+    <line>
+      <![CDATA[Test execution startedsmokeTC_02]]>
+    </line>
+    <line>
+      <![CDATA[Test execution Success]]>
+    </line>
+    <line>
+      <![CDATA[Test execution startedsmokeTC_03]]>
+    </line>
+    <line>
+      <![CDATA[Test execution Success]]>
+    </line>
+    <line>
+      <![CDATA[Test execution startedsmokeTC_04]]>
+    </line>
+    <line>
+      <![CDATA[Test execution Success]]>
+    </line>
+    <line>
+      <![CDATA[Test execution startedsmokeTC_06]]>
+    </line>
+    <line>
+      <![CDATA[Test execution Success]]>
+    </line>
+    <line>
+      <![CDATA[Test execution startedsmokeTc_07]]>
+    </line>
+    <line>
+      <![CDATA[Page Title: Demo Web Shop. Register]]>
+    </line>
+    <line>
+      <![CDATA[Test execution Success]]>
+    </line>
+    <line>
+      <![CDATA[Test execution startedverifyTitleOfApparelAndShoes]]>
+    </line>
+    <line>
+      <![CDATA[Test execution Success]]>
+    </line>
+    <line>
+      <![CDATA[Test execution FailedverifyTitleOfApparelAndShoes]]>
+    </line>
+    <line>
+      <![CDATA[Test execution FailedverifyTitleOfApparelAndShoes]]>
+    </line>
+    <line>
+      <![CDATA[Suite execution finishedEdgeTest]]>
+    </line>
+    <line>
+      <![CDATA[The launched browser is closed]]>
+    </line>
+    <line>
+      <![CDATA[The launched Browser is chrome]]>
+    </line>
+    <line>
+      <![CDATA[The launched Browser is in headlessmode true]]>
+    </line>
+    <line>
+      <![CDATA[The launched Browser is in incognitomode true]]>
+    </line>
+    <line>
+      <![CDATA[Test execution startedsmokeTC_01]]>
+    </line>
+    <line>
+      <![CDATA[Test execution FailedsmokeTC_01]]>
+    </line>
+    <line>
+      <![CDATA[Capturing screenshot for failed test casesmokeTC_01]]>
+    </line>
+    <line>
+      <![CDATA[Test execution startedsmokeTC_02]]>
+    </line>
+    <line>
+      <![CDATA[Test execution Success]]>
+    </line>
+    <line>
+      <![CDATA[Test execution startedsmokeTC_03]]>
+    </line>
+    <line>
+      <![CDATA[Test execution Success]]>
+    </line>
+    <line>
+      <![CDATA[Test execution startedsmokeTC_04]]>
+    </line>
+    <line>
+      <![CDATA[Test execution Success]]>
+    </line>
+    <line>
+      <![CDATA[Test execution startedsmokeTC_06]]>
+    </line>
+    <line>
+      <![CDATA[Test execution Success]]>
+    </line>
+    <line>
+      <![CDATA[Test execution startedsmokeTc_07]]>
+    </line>
+    <line>
+      <![CDATA[Page Title: Demo Web Shop. Register]]>
+    </line>
+    <line>
+      <![CDATA[Test execution Success]]>
+    </line>
+    <line>
+      <![CDATA[Test execution startedverifyTitleOfApparelAndShoes]]>
+    </line>
+    <line>
+      <![CDATA[Page Title: Demo Web Shop. Apparel & Shoes]]>
+    </line>
+    <line>
+      <![CDATA[Test execution Success]]>
+    </line>
+    <line>
+      <![CDATA[Test execution startedverifyTitleOfBookPage]]>
+    </line>
+    <line>
+      <![CDATA[Page Title: Demo Web Shop. Books]]>
+    </line>
+    <line>
+      <![CDATA[Test execution Success]]>
+    </line>
+    <line>
+      <![CDATA[Test execution startedverifyTitleOfElectronicsPage]]>
+    </line>
+    <line>
+      <![CDATA[Page Title: Demo Web Shop. Electronics]]>
+    </line>
+    <line>
+      <![CDATA[Test execution Success]]>
+    </line>
+    <line>
+      <![CDATA[Test execution startedverifyTitleOfJewelryPage]]>
+    </line>
+    <line>
+      <![CDATA[Page Title: Demo Web Shop. Jewelry]]>
+    </line>
+    <line>
+      <![CDATA[Test execution Success]]>
+    </line>
+    <line>
+      <![CDATA[The launched browser is closed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2026-06-30T12:23:42 IST" name="ParallelExecution" finished-at="2026-06-30T12:24:22 IST" duration-ms="40565">
+    <groups>
+    </groups>
+    <test started-at="2026-06-30T12:23:42 IST" name="FireFoxTest" finished-at="2026-06-30T12:24:08 IST" duration-ms="25881">
+      <class name="com.demoapps.testcase.SmokeTestCase">
+        <test-method is-config="true" signature="browserSetup(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.demoapps.testcase.SmokeTestCase@6f5bd362]" started-at="2026-06-30T12:24:05 IST" name="browserSetup" finished-at="2026-06-30T12:24:08 IST" duration-ms="2197" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <exception class="com.demoappsframework.FrameWorkExpections.ApplicationExceptions">
+            <message>
+              <![CDATA[Failed to maximize browser-[BrowserControls]->maxmizeBrowser()]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.demoappsframework.FrameWorkExpections.ApplicationExceptions: Failed to maximize browser-[BrowserControls]->maxmizeBrowser()
+at com.demoappsframework.utilities.BrowserControls.maxmizeBrowser(BrowserControls.java:59)
+at com.demoapps.testBase.BaseTest.browserSetup(BaseTest.java:55)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.demoappsframework.FrameWorkExpections.ApplicationExceptions -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetup -->
+        <test-method signature="smokeTC_01()[pri:0, instance:com.demoapps.testcase.SmokeTestCase@6f5bd362]" started-at="2026-06-30T12:24:08 IST" name="smokeTC_01" finished-at="2026-06-30T12:24:08 IST" duration-ms="0" status="SKIP">
+          <exception class="com.demoappsframework.FrameWorkExpections.ApplicationExceptions">
+            <message>
+              <![CDATA[Failed to maximize browser-[BrowserControls]->maxmizeBrowser()]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.demoappsframework.FrameWorkExpections.ApplicationExceptions: Failed to maximize browser-[BrowserControls]->maxmizeBrowser()
+at com.demoappsframework.utilities.BrowserControls.maxmizeBrowser(BrowserControls.java:59)
+at com.demoapps.testBase.BaseTest.browserSetup(BaseTest.java:55)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.demoappsframework.FrameWorkExpections.ApplicationExceptions -->
+          <reporter-output>
+            <line>
+              <![CDATA[Test execution SkippedsmokeTC_01]]>
+            </line>
+            <line>
+              <![CDATA[Test execution startedsmokeTC_02]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- smokeTC_01 -->
+        <test-method is-config="true" signature="attachScreenShotChainTest(org.testng.ITestResult)[pri:0, instance:com.demoapps.testcase.SmokeTestCase@6f5bd362]" started-at="2026-06-30T12:24:08 IST" name="attachScreenShotChainTest" finished-at="2026-06-30T12:24:08 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenShotChainTest -->
+        <test-method signature="smokeTC_02()[pri:0, instance:com.demoapps.testcase.SmokeTestCase@6f5bd362]" started-at="2026-06-30T12:24:08 IST" name="smokeTC_02" finished-at="2026-06-30T12:24:08 IST" duration-ms="0" status="SKIP">
+          <exception class="com.demoappsframework.FrameWorkExpections.ApplicationExceptions">
+            <message>
+              <![CDATA[Failed to maximize browser-[BrowserControls]->maxmizeBrowser()]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.demoappsframework.FrameWorkExpections.ApplicationExceptions: Failed to maximize browser-[BrowserControls]->maxmizeBrowser()
+at com.demoappsframework.utilities.BrowserControls.maxmizeBrowser(BrowserControls.java:59)
+at com.demoapps.testBase.BaseTest.browserSetup(BaseTest.java:55)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.demoappsframework.FrameWorkExpections.ApplicationExceptions -->
+          <reporter-output>
+            <line>
+              <![CDATA[Test execution SkippedsmokeTC_02]]>
+            </line>
+            <line>
+              <![CDATA[Test execution startedsmokeTC_03]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- smokeTC_02 -->
+        <test-method is-config="true" signature="attachScreenShotChainTest(org.testng.ITestResult)[pri:0, instance:com.demoapps.testcase.SmokeTestCase@6f5bd362]" started-at="2026-06-30T12:24:08 IST" name="attachScreenShotChainTest" finished-at="2026-06-30T12:24:08 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenShotChainTest -->
+        <test-method signature="smokeTC_03()[pri:0, instance:com.demoapps.testcase.SmokeTestCase@6f5bd362]" started-at="2026-06-30T12:24:08 IST" name="smokeTC_03" finished-at="2026-06-30T12:24:08 IST" duration-ms="0" status="SKIP">
+          <exception class="com.demoappsframework.FrameWorkExpections.ApplicationExceptions">
+            <message>
+              <![CDATA[Failed to maximize browser-[BrowserControls]->maxmizeBrowser()]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.demoappsframework.FrameWorkExpections.ApplicationExceptions: Failed to maximize browser-[BrowserControls]->maxmizeBrowser()
+at com.demoappsframework.utilities.BrowserControls.maxmizeBrowser(BrowserControls.java:59)
+at com.demoapps.testBase.BaseTest.browserSetup(BaseTest.java:55)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.demoappsframework.FrameWorkExpections.ApplicationExceptions -->
+          <reporter-output>
+            <line>
+              <![CDATA[Test execution SkippedsmokeTC_03]]>
+            </line>
+            <line>
+              <![CDATA[Test execution startedsmokeTC_04]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- smokeTC_03 -->
+        <test-method is-config="true" signature="attachScreenShotChainTest(org.testng.ITestResult)[pri:0, instance:com.demoapps.testcase.SmokeTestCase@6f5bd362]" started-at="2026-06-30T12:24:08 IST" name="attachScreenShotChainTest" finished-at="2026-06-30T12:24:08 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenShotChainTest -->
+        <test-method signature="smokeTC_04()[pri:0, instance:com.demoapps.testcase.SmokeTestCase@6f5bd362]" started-at="2026-06-30T12:24:08 IST" name="smokeTC_04" finished-at="2026-06-30T12:24:08 IST" duration-ms="0" status="SKIP">
+          <exception class="com.demoappsframework.FrameWorkExpections.ApplicationExceptions">
+            <message>
+              <![CDATA[Failed to maximize browser-[BrowserControls]->maxmizeBrowser()]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.demoappsframework.FrameWorkExpections.ApplicationExceptions: Failed to maximize browser-[BrowserControls]->maxmizeBrowser()
+at com.demoappsframework.utilities.BrowserControls.maxmizeBrowser(BrowserControls.java:59)
+at com.demoapps.testBase.BaseTest.browserSetup(BaseTest.java:55)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.demoappsframework.FrameWorkExpections.ApplicationExceptions -->
+          <reporter-output>
+            <line>
+              <![CDATA[Test execution SkippedsmokeTC_04]]>
+            </line>
+            <line>
+              <![CDATA[Test execution startedsmokeTC_06]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- smokeTC_04 -->
+        <test-method is-config="true" signature="attachScreenShotChainTest(org.testng.ITestResult)[pri:0, instance:com.demoapps.testcase.SmokeTestCase@6f5bd362]" started-at="2026-06-30T12:24:08 IST" name="attachScreenShotChainTest" finished-at="2026-06-30T12:24:08 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenShotChainTest -->
+        <test-method signature="smokeTC_06()[pri:0, instance:com.demoapps.testcase.SmokeTestCase@6f5bd362]" started-at="2026-06-30T12:24:08 IST" name="smokeTC_06" finished-at="2026-06-30T12:24:08 IST" duration-ms="0" status="SKIP">
+          <exception class="com.demoappsframework.FrameWorkExpections.ApplicationExceptions">
+            <message>
+              <![CDATA[Failed to maximize browser-[BrowserControls]->maxmizeBrowser()]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.demoappsframework.FrameWorkExpections.ApplicationExceptions: Failed to maximize browser-[BrowserControls]->maxmizeBrowser()
+at com.demoappsframework.utilities.BrowserControls.maxmizeBrowser(BrowserControls.java:59)
+at com.demoapps.testBase.BaseTest.browserSetup(BaseTest.java:55)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.demoappsframework.FrameWorkExpections.ApplicationExceptions -->
+          <reporter-output>
+            <line>
+              <![CDATA[Test execution SkippedsmokeTC_06]]>
+            </line>
+            <line>
+              <![CDATA[Test execution startedsmokeTc_07]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- smokeTC_06 -->
+        <test-method is-config="true" signature="attachScreenShotChainTest(org.testng.ITestResult)[pri:0, instance:com.demoapps.testcase.SmokeTestCase@6f5bd362]" started-at="2026-06-30T12:24:08 IST" name="attachScreenShotChainTest" finished-at="2026-06-30T12:24:08 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenShotChainTest -->
+        <test-method signature="smokeTc_07()[pri:0, instance:com.demoapps.testcase.SmokeTestCase@6f5bd362]" started-at="2026-06-30T12:24:08 IST" name="smokeTc_07" finished-at="2026-06-30T12:24:08 IST" duration-ms="0" status="SKIP">
+          <exception class="com.demoappsframework.FrameWorkExpections.ApplicationExceptions">
+            <message>
+              <![CDATA[Failed to maximize browser-[BrowserControls]->maxmizeBrowser()]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.demoappsframework.FrameWorkExpections.ApplicationExceptions: Failed to maximize browser-[BrowserControls]->maxmizeBrowser()
+at com.demoappsframework.utilities.BrowserControls.maxmizeBrowser(BrowserControls.java:59)
+at com.demoapps.testBase.BaseTest.browserSetup(BaseTest.java:55)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.demoappsframework.FrameWorkExpections.ApplicationExceptions -->
+          <reporter-output>
+            <line>
+              <![CDATA[Test execution SkippedsmokeTc_07]]>
+            </line>
+            <line>
+              <![CDATA[Test execution startedverifyTitleOfApparelAndShoes]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- smokeTc_07 -->
+        <test-method is-config="true" signature="attachScreenShotChainTest(org.testng.ITestResult)[pri:0, instance:com.demoapps.testcase.SmokeTestCase@6f5bd362]" started-at="2026-06-30T12:24:08 IST" name="attachScreenShotChainTest" finished-at="2026-06-30T12:24:08 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenShotChainTest -->
+        <test-method signature="verifyTitleOfApparelAndShoes()[pri:0, instance:com.demoapps.testcase.SmokeTestCase@6f5bd362]" started-at="2026-06-30T12:24:08 IST" name="verifyTitleOfApparelAndShoes" finished-at="2026-06-30T12:24:08 IST" duration-ms="0" status="SKIP">
+          <exception class="com.demoappsframework.FrameWorkExpections.ApplicationExceptions">
+            <message>
+              <![CDATA[Failed to maximize browser-[BrowserControls]->maxmizeBrowser()]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.demoappsframework.FrameWorkExpections.ApplicationExceptions: Failed to maximize browser-[BrowserControls]->maxmizeBrowser()
+at com.demoappsframework.utilities.BrowserControls.maxmizeBrowser(BrowserControls.java:59)
+at com.demoapps.testBase.BaseTest.browserSetup(BaseTest.java:55)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.demoappsframework.FrameWorkExpections.ApplicationExceptions -->
+          <reporter-output>
+            <line>
+              <![CDATA[Test execution SkippedverifyTitleOfApparelAndShoes]]>
+            </line>
+            <line>
+              <![CDATA[Test execution startedverifyTitleOfBookPage]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyTitleOfApparelAndShoes -->
+        <test-method is-config="true" signature="attachScreenShotChainTest(org.testng.ITestResult)[pri:0, instance:com.demoapps.testcase.SmokeTestCase@6f5bd362]" started-at="2026-06-30T12:24:08 IST" name="attachScreenShotChainTest" finished-at="2026-06-30T12:24:08 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenShotChainTest -->
+        <test-method signature="verifyTitleOfBookPage()[pri:0, instance:com.demoapps.testcase.SmokeTestCase@6f5bd362]" started-at="2026-06-30T12:24:08 IST" name="verifyTitleOfBookPage" finished-at="2026-06-30T12:24:08 IST" duration-ms="0" status="SKIP">
+          <exception class="com.demoappsframework.FrameWorkExpections.ApplicationExceptions">
+            <message>
+              <![CDATA[Failed to maximize browser-[BrowserControls]->maxmizeBrowser()]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.demoappsframework.FrameWorkExpections.ApplicationExceptions: Failed to maximize browser-[BrowserControls]->maxmizeBrowser()
+at com.demoappsframework.utilities.BrowserControls.maxmizeBrowser(BrowserControls.java:59)
+at com.demoapps.testBase.BaseTest.browserSetup(BaseTest.java:55)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.demoappsframework.FrameWorkExpections.ApplicationExceptions -->
+          <reporter-output>
+            <line>
+              <![CDATA[Test execution SkippedverifyTitleOfBookPage]]>
+            </line>
+            <line>
+              <![CDATA[Test execution startedverifyTitleOfElectronicsPage]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyTitleOfBookPage -->
+        <test-method is-config="true" signature="attachScreenShotChainTest(org.testng.ITestResult)[pri:0, instance:com.demoapps.testcase.SmokeTestCase@6f5bd362]" started-at="2026-06-30T12:24:08 IST" name="attachScreenShotChainTest" finished-at="2026-06-30T12:24:08 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenShotChainTest -->
+        <test-method signature="verifyTitleOfElectronicsPage()[pri:0, instance:com.demoapps.testcase.SmokeTestCase@6f5bd362]" started-at="2026-06-30T12:24:08 IST" name="verifyTitleOfElectronicsPage" finished-at="2026-06-30T12:24:08 IST" duration-ms="0" status="SKIP">
+          <exception class="com.demoappsframework.FrameWorkExpections.ApplicationExceptions">
+            <message>
+              <![CDATA[Failed to maximize browser-[BrowserControls]->maxmizeBrowser()]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.demoappsframework.FrameWorkExpections.ApplicationExceptions: Failed to maximize browser-[BrowserControls]->maxmizeBrowser()
+at com.demoappsframework.utilities.BrowserControls.maxmizeBrowser(BrowserControls.java:59)
+at com.demoapps.testBase.BaseTest.browserSetup(BaseTest.java:55)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.demoappsframework.FrameWorkExpections.ApplicationExceptions -->
+          <reporter-output>
+            <line>
+              <![CDATA[Test execution SkippedverifyTitleOfElectronicsPage]]>
+            </line>
+            <line>
+              <![CDATA[Test execution startedverifyTitleOfJewelryPage]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyTitleOfElectronicsPage -->
+        <test-method is-config="true" signature="attachScreenShotChainTest(org.testng.ITestResult)[pri:0, instance:com.demoapps.testcase.SmokeTestCase@6f5bd362]" started-at="2026-06-30T12:24:08 IST" name="attachScreenShotChainTest" finished-at="2026-06-30T12:24:08 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenShotChainTest -->
+        <test-method signature="verifyTitleOfJewelryPage()[pri:0, instance:com.demoapps.testcase.SmokeTestCase@6f5bd362]" started-at="2026-06-30T12:24:08 IST" name="verifyTitleOfJewelryPage" finished-at="2026-06-30T12:24:08 IST" duration-ms="0" status="SKIP">
+          <exception class="com.demoappsframework.FrameWorkExpections.ApplicationExceptions">
+            <message>
+              <![CDATA[Failed to maximize browser-[BrowserControls]->maxmizeBrowser()]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.demoappsframework.FrameWorkExpections.ApplicationExceptions: Failed to maximize browser-[BrowserControls]->maxmizeBrowser()
+at com.demoappsframework.utilities.BrowserControls.maxmizeBrowser(BrowserControls.java:59)
+at com.demoapps.testBase.BaseTest.browserSetup(BaseTest.java:55)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.demoappsframework.FrameWorkExpections.ApplicationExceptions -->
+          <reporter-output>
+            <line>
+              <![CDATA[Test execution SkippedverifyTitleOfJewelryPage]]>
+            </line>
+            <line>
+              <![CDATA[Suite execution finishedFireFoxTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyTitleOfJewelryPage -->
+        <test-method is-config="true" signature="attachScreenShotChainTest(org.testng.ITestResult)[pri:0, instance:com.demoapps.testcase.SmokeTestCase@6f5bd362]" started-at="2026-06-30T12:24:08 IST" name="attachScreenShotChainTest" finished-at="2026-06-30T12:24:08 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenShotChainTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.demoapps.testcase.SmokeTestCase@6f5bd362]" started-at="2026-06-30T12:24:08 IST" name="closeBrowser" finished-at="2026-06-30T12:24:08 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.demoapps.testcase.SmokeTestCase -->
+      <class name="com.demoapps.testcase.IntegrationTestCase">
+        <test-method is-config="true" signature="browserSetup(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.demoapps.testcase.IntegrationTestCase@62765aec]" started-at="2026-06-30T12:23:45 IST" name="browserSetup" finished-at="2026-06-30T12:23:51 IST" duration-ms="6082" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[The launched Browser is firefox]]>
+            </line>
+            <line>
+              <![CDATA[The launched Browser is in headlessmode true]]>
+            </line>
+            <line>
+              <![CDATA[The launched Browser is in incognitomode true]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- browserSetup -->
+        <test-method signature="iTC_06VerifyMultipleCartProducts(java.lang.String,int)[pri:0, instance:com.demoapps.testcase.IntegrationTestCase@62765aec]" started-at="2026-06-30T12:23:51 IST" name="iTC_06VerifyMultipleCartProducts" data-provider="productsList" finished-at="2026-06-30T12:23:54 IST" duration-ms="2318" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Computing and Internet]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test execution startediTC_06VerifyMultipleCartProducts]]>
+            </line>
+            <line>
+              <![CDATA[Test execution Success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- iTC_06VerifyMultipleCartProducts -->
+        <test-method is-config="true" signature="attachScreenShotChainTest(org.testng.ITestResult)[pri:0, instance:com.demoapps.testcase.IntegrationTestCase@62765aec]" started-at="2026-06-30T12:23:54 IST" name="attachScreenShotChainTest" finished-at="2026-06-30T12:23:54 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=iTC_06VerifyMultipleCartProducts status=SUCCESS method=IntegrationTestCase.iTC_06VerifyMultipleCartProducts(java.lang.String,int)[pri:0, instance:com.demoapps.testcase.IntegrationTestCase@62765aec] output=Test execution startediTC_06VerifyMultipleCartProducts]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenShotChainTest -->
+        <test-method signature="iTC_06VerifyMultipleCartProducts(java.lang.String,int)[pri:0, instance:com.demoapps.testcase.IntegrationTestCase@62765aec]" started-at="2026-06-30T12:23:54 IST" name="iTC_06VerifyMultipleCartProducts" data-provider="productsList" finished-at="2026-06-30T12:23:56 IST" duration-ms="2168" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Casual Golf Belt]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test execution startediTC_06VerifyMultipleCartProducts]]>
+            </line>
+            <line>
+              <![CDATA[Test execution Success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- iTC_06VerifyMultipleCartProducts -->
+        <test-method is-config="true" signature="attachScreenShotChainTest(org.testng.ITestResult)[pri:0, instance:com.demoapps.testcase.IntegrationTestCase@62765aec]" started-at="2026-06-30T12:23:56 IST" name="attachScreenShotChainTest" finished-at="2026-06-30T12:23:56 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=iTC_06VerifyMultipleCartProducts status=SUCCESS method=IntegrationTestCase.iTC_06VerifyMultipleCartProducts(java.lang.String,int)[pri:0, instance:com.demoapps.testcase.IntegrationTestCase@62765aec] output=Test execution startediTC_06VerifyMultipleCartProducts]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenShotChainTest -->
+        <test-method signature="iTC_06VerifyMultipleCartProducts(java.lang.String,int)[pri:0, instance:com.demoapps.testcase.IntegrationTestCase@62765aec]" started-at="2026-06-30T12:23:56 IST" name="iTC_06VerifyMultipleCartProducts" data-provider="productsList" finished-at="2026-06-30T12:23:58 IST" duration-ms="2198" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3rd Album]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test execution startediTC_06VerifyMultipleCartProducts]]>
+            </line>
+            <line>
+              <![CDATA[Test execution Success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- iTC_06VerifyMultipleCartProducts -->
+        <test-method is-config="true" signature="attachScreenShotChainTest(org.testng.ITestResult)[pri:0, instance:com.demoapps.testcase.IntegrationTestCase@62765aec]" started-at="2026-06-30T12:23:58 IST" name="attachScreenShotChainTest" finished-at="2026-06-30T12:23:58 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=iTC_06VerifyMultipleCartProducts status=SUCCESS method=IntegrationTestCase.iTC_06VerifyMultipleCartProducts(java.lang.String,int)[pri:0, instance:com.demoapps.testcase.IntegrationTestCase@62765aec] output=Test execution startediTC_06VerifyMultipleCartProducts]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenShotChainTest -->
+        <test-method signature="iTC_06VerifyMultipleCartProducts(java.lang.String,int)[pri:0, instance:com.demoapps.testcase.IntegrationTestCase@62765aec]" started-at="2026-06-30T12:23:58 IST" name="iTC_06VerifyMultipleCartProducts" data-provider="productsList" finished-at="2026-06-30T12:24:00 IST" duration-ms="2266" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Health Book]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test execution startediTC_06VerifyMultipleCartProducts]]>
+            </line>
+            <line>
+              <![CDATA[Test execution Success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- iTC_06VerifyMultipleCartProducts -->
+        <test-method is-config="true" signature="attachScreenShotChainTest(org.testng.ITestResult)[pri:0, instance:com.demoapps.testcase.IntegrationTestCase@62765aec]" started-at="2026-06-30T12:24:00 IST" name="attachScreenShotChainTest" finished-at="2026-06-30T12:24:00 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=iTC_06VerifyMultipleCartProducts status=SUCCESS method=IntegrationTestCase.iTC_06VerifyMultipleCartProducts(java.lang.String,int)[pri:0, instance:com.demoapps.testcase.IntegrationTestCase@62765aec] output=Test execution startediTC_06VerifyMultipleCartProducts]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenShotChainTest -->
+        <test-method signature="iTC_06VerifyMultipleCartProducts(java.lang.String,int)[pri:0, instance:com.demoapps.testcase.IntegrationTestCase@62765aec]" started-at="2026-06-30T12:24:00 IST" name="iTC_06VerifyMultipleCartProducts" data-provider="productsList" finished-at="2026-06-30T12:24:03 IST" duration-ms="2416" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Fiction]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test execution startediTC_06VerifyMultipleCartProducts]]>
+            </line>
+            <line>
+              <![CDATA[Test execution Success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- iTC_06VerifyMultipleCartProducts -->
+        <test-method is-config="true" signature="attachScreenShotChainTest(org.testng.ITestResult)[pri:0, instance:com.demoapps.testcase.IntegrationTestCase@62765aec]" started-at="2026-06-30T12:24:03 IST" name="attachScreenShotChainTest" finished-at="2026-06-30T12:24:03 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=iTC_06VerifyMultipleCartProducts status=SUCCESS method=IntegrationTestCase.iTC_06VerifyMultipleCartProducts(java.lang.String,int)[pri:0, instance:com.demoapps.testcase.IntegrationTestCase@62765aec] output=Test execution startediTC_06VerifyMultipleCartProducts]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenShotChainTest -->
+        <test-method signature="iTC_06VerifyMultipleCartProducts(java.lang.String,int)[pri:0, instance:com.demoapps.testcase.IntegrationTestCase@62765aec]" started-at="2026-06-30T12:24:03 IST" name="iTC_06VerifyMultipleCartProducts" data-provider="productsList" finished-at="2026-06-30T12:24:05 IST" duration-ms="2350" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Blue Jeans]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test execution startediTC_06VerifyMultipleCartProducts]]>
+            </line>
+            <line>
+              <![CDATA[Test execution Success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- iTC_06VerifyMultipleCartProducts -->
+        <test-method is-config="true" signature="attachScreenShotChainTest(org.testng.ITestResult)[pri:0, instance:com.demoapps.testcase.IntegrationTestCase@62765aec]" started-at="2026-06-30T12:24:05 IST" name="attachScreenShotChainTest" finished-at="2026-06-30T12:24:05 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=iTC_06VerifyMultipleCartProducts status=SUCCESS method=IntegrationTestCase.iTC_06VerifyMultipleCartProducts(java.lang.String,int)[pri:0, instance:com.demoapps.testcase.IntegrationTestCase@62765aec] output=Test execution startediTC_06VerifyMultipleCartProducts]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenShotChainTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.demoapps.testcase.IntegrationTestCase@62765aec]" started-at="2026-06-30T12:24:05 IST" name="closeBrowser" finished-at="2026-06-30T12:24:05 IST" duration-ms="243" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[The launched browser is closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.demoapps.testcase.IntegrationTestCase -->
+      <class name="com.demoapps.testcase.FuncationalTestCase">
+        <test-method is-config="true" signature="browserSetup(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.demoapps.testcase.FuncationalTestCase@468173fa]" started-at="2026-06-30T12:23:42 IST" name="browserSetup" finished-at="2026-06-30T12:23:45 IST" duration-ms="2848" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <exception class="com.demoappsframework.FrameWorkExpections.ApplicationExceptions">
+            <message>
+              <![CDATA[Failed to maximize browser-[BrowserControls]->maxmizeBrowser()]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.demoappsframework.FrameWorkExpections.ApplicationExceptions: Failed to maximize browser-[BrowserControls]->maxmizeBrowser()
+at com.demoappsframework.utilities.BrowserControls.maxmizeBrowser(BrowserControls.java:59)
+at com.demoapps.testBase.BaseTest.browserSetup(BaseTest.java:55)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.demoappsframework.FrameWorkExpections.ApplicationExceptions -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetup -->
+        <test-method signature="FC_01userRegistrationPage(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.demoapps.testcase.FuncationalTestCase@468173fa]" started-at="2026-06-30T12:23:45 IST" name="FC_01userRegistrationPage" data-provider="userRegData" finished-at="2026-06-30T12:23:45 IST" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Owen]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Bernhard]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ruby.sawayn@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[$83$X*&]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+          </params>
+          <exception class="com.demoappsframework.FrameWorkExpections.ApplicationExceptions">
+            <message>
+              <![CDATA[Failed to maximize browser-[BrowserControls]->maxmizeBrowser()]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.demoappsframework.FrameWorkExpections.ApplicationExceptions: Failed to maximize browser-[BrowserControls]->maxmizeBrowser()
+at com.demoappsframework.utilities.BrowserControls.maxmizeBrowser(BrowserControls.java:59)
+at com.demoapps.testBase.BaseTest.browserSetup(BaseTest.java:55)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.demoappsframework.FrameWorkExpections.ApplicationExceptions -->
+          <reporter-output>
+            <line>
+              <![CDATA[Test execution SkippedFC_01userRegistrationPage]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- FC_01userRegistrationPage -->
+        <test-method is-config="true" signature="attachScreenShotChainTest(org.testng.ITestResult)[pri:0, instance:com.demoapps.testcase.FuncationalTestCase@468173fa]" started-at="2026-06-30T12:23:45 IST" name="attachScreenShotChainTest" finished-at="2026-06-30T12:23:45 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenShotChainTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.demoapps.testcase.FuncationalTestCase@468173fa]" started-at="2026-06-30T12:23:45 IST" name="closeBrowser" finished-at="2026-06-30T12:23:45 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.demoapps.testcase.FuncationalTestCase -->
+    </test> <!-- FireFoxTest -->
+    <test started-at="2026-06-30T12:23:42 IST" name="ChromeTest" finished-at="2026-06-30T12:24:22 IST" duration-ms="40565">
+      <class name="com.demoapps.testcase.SmokeTestCase">
+        <test-method is-config="true" signature="browserSetup(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.demoapps.testcase.SmokeTestCase@7a6ea47d]" started-at="2026-06-30T12:24:14 IST" name="browserSetup" finished-at="2026-06-30T12:24:18 IST" duration-ms="4177" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[The launched Browser is chrome]]>
+            </line>
+            <line>
+              <![CDATA[The launched Browser is in headlessmode true]]>
+            </line>
+            <line>
+              <![CDATA[The launched Browser is in incognitomode true]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- browserSetup -->
+        <test-method signature="smokeTC_01()[pri:0, instance:com.demoapps.testcase.SmokeTestCase@7a6ea47d]" started-at="2026-06-30T12:24:18 IST" name="smokeTC_01" finished-at="2026-06-30T12:24:18 IST" duration-ms="30" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.fail(Assert.java:116)
+at com.demoapps.testcase.SmokeTestCase.smokeTC_01(SmokeTestCase.java:16)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Test execution startedsmokeTC_01]]>
+            </line>
+            <line>
+              <![CDATA[Test execution FailedsmokeTC_01]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- smokeTC_01 -->
+        <test-method is-config="true" signature="attachScreenShotChainTest(org.testng.ITestResult)[pri:0, instance:com.demoapps.testcase.SmokeTestCase@7a6ea47d]" started-at="2026-06-30T12:24:18 IST" name="attachScreenShotChainTest" finished-at="2026-06-30T12:24:18 IST" duration-ms="95" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=smokeTC_01 status=FAILURE method=SmokeTestCase.smokeTC_01()[pri:0, instance:com.demoapps.testcase.SmokeTestCase@7a6ea47d] output=Test execution startedsmokeTC_01]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Capturing screenshot for failed test casesmokeTC_01]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- attachScreenShotChainTest -->
+        <test-method signature="smokeTC_02()[pri:0, instance:com.demoapps.testcase.SmokeTestCase@7a6ea47d]" started-at="2026-06-30T12:24:18 IST" name="smokeTC_02" finished-at="2026-06-30T12:24:18 IST" duration-ms="26" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test execution startedsmokeTC_02]]>
+            </line>
+            <line>
+              <![CDATA[Test execution Success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- smokeTC_02 -->
+        <test-method is-config="true" signature="attachScreenShotChainTest(org.testng.ITestResult)[pri:0, instance:com.demoapps.testcase.SmokeTestCase@7a6ea47d]" started-at="2026-06-30T12:24:18 IST" name="attachScreenShotChainTest" finished-at="2026-06-30T12:24:18 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=smokeTC_02 status=SUCCESS method=SmokeTestCase.smokeTC_02()[pri:0, instance:com.demoapps.testcase.SmokeTestCase@7a6ea47d] output=Test execution startedsmokeTC_02]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenShotChainTest -->
+        <test-method signature="smokeTC_03()[pri:0, instance:com.demoapps.testcase.SmokeTestCase@7a6ea47d]" started-at="2026-06-30T12:24:18 IST" name="smokeTC_03" finished-at="2026-06-30T12:24:18 IST" duration-ms="31" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test execution startedsmokeTC_03]]>
+            </line>
+            <line>
+              <![CDATA[Test execution Success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- smokeTC_03 -->
+        <test-method is-config="true" signature="attachScreenShotChainTest(org.testng.ITestResult)[pri:0, instance:com.demoapps.testcase.SmokeTestCase@7a6ea47d]" started-at="2026-06-30T12:24:18 IST" name="attachScreenShotChainTest" finished-at="2026-06-30T12:24:18 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=smokeTC_03 status=SUCCESS method=SmokeTestCase.smokeTC_03()[pri:0, instance:com.demoapps.testcase.SmokeTestCase@7a6ea47d] output=Test execution startedsmokeTC_03]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenShotChainTest -->
+        <test-method signature="smokeTC_04()[pri:0, instance:com.demoapps.testcase.SmokeTestCase@7a6ea47d]" started-at="2026-06-30T12:24:18 IST" name="smokeTC_04" finished-at="2026-06-30T12:24:18 IST" duration-ms="26" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test execution startedsmokeTC_04]]>
+            </line>
+            <line>
+              <![CDATA[Test execution Success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- smokeTC_04 -->
+        <test-method is-config="true" signature="attachScreenShotChainTest(org.testng.ITestResult)[pri:0, instance:com.demoapps.testcase.SmokeTestCase@7a6ea47d]" started-at="2026-06-30T12:24:18 IST" name="attachScreenShotChainTest" finished-at="2026-06-30T12:24:18 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=smokeTC_04 status=SUCCESS method=SmokeTestCase.smokeTC_04()[pri:0, instance:com.demoapps.testcase.SmokeTestCase@7a6ea47d] output=Test execution startedsmokeTC_04]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenShotChainTest -->
+        <test-method signature="smokeTC_06()[pri:0, instance:com.demoapps.testcase.SmokeTestCase@7a6ea47d]" started-at="2026-06-30T12:24:18 IST" name="smokeTC_06" finished-at="2026-06-30T12:24:18 IST" duration-ms="21" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test execution startedsmokeTC_06]]>
+            </line>
+            <line>
+              <![CDATA[Test execution Success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- smokeTC_06 -->
+        <test-method is-config="true" signature="attachScreenShotChainTest(org.testng.ITestResult)[pri:0, instance:com.demoapps.testcase.SmokeTestCase@7a6ea47d]" started-at="2026-06-30T12:24:18 IST" name="attachScreenShotChainTest" finished-at="2026-06-30T12:24:18 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=smokeTC_06 status=SUCCESS method=SmokeTestCase.smokeTC_06()[pri:0, instance:com.demoapps.testcase.SmokeTestCase@7a6ea47d] output=Test execution startedsmokeTC_06]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenShotChainTest -->
+        <test-method signature="smokeTc_07()[pri:0, instance:com.demoapps.testcase.SmokeTestCase@7a6ea47d]" started-at="2026-06-30T12:24:18 IST" name="smokeTc_07" finished-at="2026-06-30T12:24:19 IST" duration-ms="573" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test execution startedsmokeTc_07]]>
+            </line>
+            <line>
+              <![CDATA[Page Title: Demo Web Shop. Register]]>
+            </line>
+            <line>
+              <![CDATA[Test execution Success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- smokeTc_07 -->
+        <test-method is-config="true" signature="attachScreenShotChainTest(org.testng.ITestResult)[pri:0, instance:com.demoapps.testcase.SmokeTestCase@7a6ea47d]" started-at="2026-06-30T12:24:19 IST" name="attachScreenShotChainTest" finished-at="2026-06-30T12:24:19 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=smokeTc_07 status=SUCCESS method=SmokeTestCase.smokeTc_07()[pri:0, instance:com.demoapps.testcase.SmokeTestCase@7a6ea47d] output=Test execution startedsmokeTc_07]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenShotChainTest -->
+        <test-method signature="verifyTitleOfApparelAndShoes()[pri:0, instance:com.demoapps.testcase.SmokeTestCase@7a6ea47d]" started-at="2026-06-30T12:24:19 IST" name="verifyTitleOfApparelAndShoes" finished-at="2026-06-30T12:24:20 IST" duration-ms="942" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test execution startedverifyTitleOfApparelAndShoes]]>
+            </line>
+            <line>
+              <![CDATA[Page Title: Demo Web Shop. Apparel & Shoes]]>
+            </line>
+            <line>
+              <![CDATA[Test execution Success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyTitleOfApparelAndShoes -->
+        <test-method is-config="true" signature="attachScreenShotChainTest(org.testng.ITestResult)[pri:0, instance:com.demoapps.testcase.SmokeTestCase@7a6ea47d]" started-at="2026-06-30T12:24:20 IST" name="attachScreenShotChainTest" finished-at="2026-06-30T12:24:20 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTitleOfApparelAndShoes status=SUCCESS method=SmokeTestCase.verifyTitleOfApparelAndShoes()[pri:0, instance:com.demoapps.testcase.SmokeTestCase@7a6ea47d] output=Test execution startedverifyTitleOfApparelAndShoes]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenShotChainTest -->
+        <test-method signature="verifyTitleOfBookPage()[pri:0, instance:com.demoapps.testcase.SmokeTestCase@7a6ea47d]" started-at="2026-06-30T12:24:20 IST" name="verifyTitleOfBookPage" finished-at="2026-06-30T12:24:21 IST" duration-ms="963" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test execution startedverifyTitleOfBookPage]]>
+            </line>
+            <line>
+              <![CDATA[Page Title: Demo Web Shop. Books]]>
+            </line>
+            <line>
+              <![CDATA[Test execution Success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyTitleOfBookPage -->
+        <test-method is-config="true" signature="attachScreenShotChainTest(org.testng.ITestResult)[pri:0, instance:com.demoapps.testcase.SmokeTestCase@7a6ea47d]" started-at="2026-06-30T12:24:21 IST" name="attachScreenShotChainTest" finished-at="2026-06-30T12:24:21 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTitleOfBookPage status=SUCCESS method=SmokeTestCase.verifyTitleOfBookPage()[pri:0, instance:com.demoapps.testcase.SmokeTestCase@7a6ea47d] output=Test execution startedverifyTitleOfBookPage]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenShotChainTest -->
+        <test-method signature="verifyTitleOfElectronicsPage()[pri:0, instance:com.demoapps.testcase.SmokeTestCase@7a6ea47d]" started-at="2026-06-30T12:24:21 IST" name="verifyTitleOfElectronicsPage" finished-at="2026-06-30T12:24:22 IST" duration-ms="748" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test execution startedverifyTitleOfElectronicsPage]]>
+            </line>
+            <line>
+              <![CDATA[Page Title: Demo Web Shop. Electronics]]>
+            </line>
+            <line>
+              <![CDATA[Test execution Success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyTitleOfElectronicsPage -->
+        <test-method is-config="true" signature="attachScreenShotChainTest(org.testng.ITestResult)[pri:0, instance:com.demoapps.testcase.SmokeTestCase@7a6ea47d]" started-at="2026-06-30T12:24:22 IST" name="attachScreenShotChainTest" finished-at="2026-06-30T12:24:22 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTitleOfElectronicsPage status=SUCCESS method=SmokeTestCase.verifyTitleOfElectronicsPage()[pri:0, instance:com.demoapps.testcase.SmokeTestCase@7a6ea47d] output=Test execution startedverifyTitleOfElectronicsPage]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenShotChainTest -->
+        <test-method signature="verifyTitleOfJewelryPage()[pri:0, instance:com.demoapps.testcase.SmokeTestCase@7a6ea47d]" started-at="2026-06-30T12:24:22 IST" name="verifyTitleOfJewelryPage" finished-at="2026-06-30T12:24:22 IST" duration-ms="768" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test execution startedverifyTitleOfJewelryPage]]>
+            </line>
+            <line>
+              <![CDATA[Page Title: Demo Web Shop. Jewelry]]>
+            </line>
+            <line>
+              <![CDATA[Test execution Success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyTitleOfJewelryPage -->
+        <test-method is-config="true" signature="attachScreenShotChainTest(org.testng.ITestResult)[pri:0, instance:com.demoapps.testcase.SmokeTestCase@7a6ea47d]" started-at="2026-06-30T12:24:22 IST" name="attachScreenShotChainTest" finished-at="2026-06-30T12:24:22 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTitleOfJewelryPage status=SUCCESS method=SmokeTestCase.verifyTitleOfJewelryPage()[pri:0, instance:com.demoapps.testcase.SmokeTestCase@7a6ea47d] output=Test execution startedverifyTitleOfJewelryPage]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenShotChainTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.demoapps.testcase.SmokeTestCase@7a6ea47d]" started-at="2026-06-30T12:24:22 IST" name="closeBrowser" finished-at="2026-06-30T12:24:22 IST" duration-ms="111" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[The launched browser is closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.demoapps.testcase.SmokeTestCase -->
+      <class name="com.demoapps.testcase.IntegrationTestCase">
+        <test-method is-config="true" signature="browserSetup(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.demoapps.testcase.IntegrationTestCase@158e9f6e]" started-at="2026-06-30T12:23:45 IST" name="browserSetup" finished-at="2026-06-30T12:23:50 IST" duration-ms="4676" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[The launched Browser is chrome]]>
+            </line>
+            <line>
+              <![CDATA[The launched Browser is in headlessmode true]]>
+            </line>
+            <line>
+              <![CDATA[The launched Browser is in incognitomode true]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- browserSetup -->
+        <test-method signature="iTC_06VerifyMultipleCartProducts(java.lang.String,int)[pri:0, instance:com.demoapps.testcase.IntegrationTestCase@158e9f6e]" started-at="2026-06-30T12:23:51 IST" name="iTC_06VerifyMultipleCartProducts" data-provider="productsList" finished-at="2026-06-30T12:23:53 IST" duration-ms="1920" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Computing and Internet]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test execution startediTC_06VerifyMultipleCartProducts]]>
+            </line>
+            <line>
+              <![CDATA[Test execution Success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- iTC_06VerifyMultipleCartProducts -->
+        <test-method is-config="true" signature="attachScreenShotChainTest(org.testng.ITestResult)[pri:0, instance:com.demoapps.testcase.IntegrationTestCase@158e9f6e]" started-at="2026-06-30T12:23:53 IST" name="attachScreenShotChainTest" finished-at="2026-06-30T12:23:53 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=iTC_06VerifyMultipleCartProducts status=SUCCESS method=IntegrationTestCase.iTC_06VerifyMultipleCartProducts(java.lang.String,int)[pri:0, instance:com.demoapps.testcase.IntegrationTestCase@158e9f6e] output=Test execution startediTC_06VerifyMultipleCartProducts]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenShotChainTest -->
+        <test-method signature="iTC_06VerifyMultipleCartProducts(java.lang.String,int)[pri:0, instance:com.demoapps.testcase.IntegrationTestCase@158e9f6e]" started-at="2026-06-30T12:23:53 IST" name="iTC_06VerifyMultipleCartProducts" data-provider="productsList" finished-at="2026-06-30T12:24:05 IST" duration-ms="11824" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Casual Golf Belt]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <exception class="com.demoappsframework.FrameWorkExpections.ApplicationExceptions">
+            <message>
+              <![CDATA[Failed to locate the element-[WaitingStratgey]->locateElement()]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.demoappsframework.FrameWorkExpections.ApplicationExceptions: Failed to locate the element-[WaitingStratgey]->locateElement()
+at com.demoappsframework.utilities.WaitingStratgey.locateElement(WaitingStratgey.java:30)
+at com.demoappsframwork.PageLayers.WelcomePage.verifyMultipleProductsCart(WelcomePage.java:145)
+at com.demoapps.testcase.IntegrationTestCase.iTC_06VerifyMultipleCartProducts(IntegrationTestCase.java:48)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.demoappsframework.FrameWorkExpections.ApplicationExceptions -->
+          <reporter-output>
+            <line>
+              <![CDATA[Test execution startediTC_06VerifyMultipleCartProducts]]>
+            </line>
+            <line>
+              <![CDATA[Test execution FailediTC_06VerifyMultipleCartProducts]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- iTC_06VerifyMultipleCartProducts -->
+        <test-method is-config="true" signature="attachScreenShotChainTest(org.testng.ITestResult)[pri:0, instance:com.demoapps.testcase.IntegrationTestCase@158e9f6e]" started-at="2026-06-30T12:24:05 IST" name="attachScreenShotChainTest" finished-at="2026-06-30T12:24:05 IST" duration-ms="75" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=iTC_06VerifyMultipleCartProducts status=FAILURE method=IntegrationTestCase.iTC_06VerifyMultipleCartProducts(java.lang.String,int)[pri:0, instance:com.demoapps.testcase.IntegrationTestCase@158e9f6e] output=Test execution startediTC_06VerifyMultipleCartProducts]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Capturing screenshot for failed test caseiTC_06VerifyMultipleCartProducts]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- attachScreenShotChainTest -->
+        <test-method signature="iTC_06VerifyMultipleCartProducts(java.lang.String,int)[pri:0, instance:com.demoapps.testcase.IntegrationTestCase@158e9f6e]" started-at="2026-06-30T12:24:05 IST" name="iTC_06VerifyMultipleCartProducts" data-provider="productsList" finished-at="2026-06-30T12:24:07 IST" duration-ms="1991" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3rd Album]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test execution startediTC_06VerifyMultipleCartProducts]]>
+            </line>
+            <line>
+              <![CDATA[Test execution Success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- iTC_06VerifyMultipleCartProducts -->
+        <test-method is-config="true" signature="attachScreenShotChainTest(org.testng.ITestResult)[pri:0, instance:com.demoapps.testcase.IntegrationTestCase@158e9f6e]" started-at="2026-06-30T12:24:07 IST" name="attachScreenShotChainTest" finished-at="2026-06-30T12:24:07 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=iTC_06VerifyMultipleCartProducts status=SUCCESS method=IntegrationTestCase.iTC_06VerifyMultipleCartProducts(java.lang.String,int)[pri:0, instance:com.demoapps.testcase.IntegrationTestCase@158e9f6e] output=Test execution startediTC_06VerifyMultipleCartProducts]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenShotChainTest -->
+        <test-method signature="iTC_06VerifyMultipleCartProducts(java.lang.String,int)[pri:0, instance:com.demoapps.testcase.IntegrationTestCase@158e9f6e]" started-at="2026-06-30T12:24:07 IST" name="iTC_06VerifyMultipleCartProducts" data-provider="productsList" finished-at="2026-06-30T12:24:09 IST" duration-ms="2251" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Health Book]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test execution startediTC_06VerifyMultipleCartProducts]]>
+            </line>
+            <line>
+              <![CDATA[Test execution Success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- iTC_06VerifyMultipleCartProducts -->
+        <test-method is-config="true" signature="attachScreenShotChainTest(org.testng.ITestResult)[pri:0, instance:com.demoapps.testcase.IntegrationTestCase@158e9f6e]" started-at="2026-06-30T12:24:09 IST" name="attachScreenShotChainTest" finished-at="2026-06-30T12:24:09 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=iTC_06VerifyMultipleCartProducts status=SUCCESS method=IntegrationTestCase.iTC_06VerifyMultipleCartProducts(java.lang.String,int)[pri:0, instance:com.demoapps.testcase.IntegrationTestCase@158e9f6e] output=Test execution startediTC_06VerifyMultipleCartProducts]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenShotChainTest -->
+        <test-method signature="iTC_06VerifyMultipleCartProducts(java.lang.String,int)[pri:0, instance:com.demoapps.testcase.IntegrationTestCase@158e9f6e]" started-at="2026-06-30T12:24:09 IST" name="iTC_06VerifyMultipleCartProducts" data-provider="productsList" finished-at="2026-06-30T12:24:12 IST" duration-ms="2603" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Fiction]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test execution startediTC_06VerifyMultipleCartProducts]]>
+            </line>
+            <line>
+              <![CDATA[Test execution Success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- iTC_06VerifyMultipleCartProducts -->
+        <test-method is-config="true" signature="attachScreenShotChainTest(org.testng.ITestResult)[pri:0, instance:com.demoapps.testcase.IntegrationTestCase@158e9f6e]" started-at="2026-06-30T12:24:12 IST" name="attachScreenShotChainTest" finished-at="2026-06-30T12:24:12 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=iTC_06VerifyMultipleCartProducts status=SUCCESS method=IntegrationTestCase.iTC_06VerifyMultipleCartProducts(java.lang.String,int)[pri:0, instance:com.demoapps.testcase.IntegrationTestCase@158e9f6e] output=Test execution startediTC_06VerifyMultipleCartProducts]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenShotChainTest -->
+        <test-method signature="iTC_06VerifyMultipleCartProducts(java.lang.String,int)[pri:0, instance:com.demoapps.testcase.IntegrationTestCase@158e9f6e]" started-at="2026-06-30T12:24:12 IST" name="iTC_06VerifyMultipleCartProducts" data-provider="productsList" finished-at="2026-06-30T12:24:14 IST" duration-ms="1807" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Blue Jeans]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test execution startediTC_06VerifyMultipleCartProducts]]>
+            </line>
+            <line>
+              <![CDATA[Test execution Success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- iTC_06VerifyMultipleCartProducts -->
+        <test-method is-config="true" signature="attachScreenShotChainTest(org.testng.ITestResult)[pri:0, instance:com.demoapps.testcase.IntegrationTestCase@158e9f6e]" started-at="2026-06-30T12:24:14 IST" name="attachScreenShotChainTest" finished-at="2026-06-30T12:24:14 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=iTC_06VerifyMultipleCartProducts status=SUCCESS method=IntegrationTestCase.iTC_06VerifyMultipleCartProducts(java.lang.String,int)[pri:0, instance:com.demoapps.testcase.IntegrationTestCase@158e9f6e] output=Test execution startediTC_06VerifyMultipleCartProducts]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenShotChainTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.demoapps.testcase.IntegrationTestCase@158e9f6e]" started-at="2026-06-30T12:24:14 IST" name="closeBrowser" finished-at="2026-06-30T12:24:14 IST" duration-ms="219" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[The launched browser is closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.demoapps.testcase.IntegrationTestCase -->
+      <class name="com.demoapps.testcase.FuncationalTestCase">
+        <test-method is-config="true" signature="browserSetup(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.demoapps.testcase.FuncationalTestCase@55b5cd2b]" started-at="2026-06-30T12:23:42 IST" name="browserSetup" finished-at="2026-06-30T12:23:45 IST" duration-ms="2753" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <exception class="com.demoappsframework.FrameWorkExpections.ApplicationExceptions">
+            <message>
+              <![CDATA[Failed to maximize browser-[BrowserControls]->maxmizeBrowser()]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.demoappsframework.FrameWorkExpections.ApplicationExceptions: Failed to maximize browser-[BrowserControls]->maxmizeBrowser()
+at com.demoappsframework.utilities.BrowserControls.maxmizeBrowser(BrowserControls.java:59)
+at com.demoapps.testBase.BaseTest.browserSetup(BaseTest.java:55)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.demoappsframework.FrameWorkExpections.ApplicationExceptions -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetup -->
+        <test-method signature="FC_01userRegistrationPage(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.demoapps.testcase.FuncationalTestCase@55b5cd2b]" started-at="2026-06-30T12:23:45 IST" name="FC_01userRegistrationPage" data-provider="userRegData" finished-at="2026-06-30T12:23:45 IST" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tamika]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Funk]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ming.carter@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[$GRogFX]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+          </params>
+          <exception class="com.demoappsframework.FrameWorkExpections.ApplicationExceptions">
+            <message>
+              <![CDATA[Failed to maximize browser-[BrowserControls]->maxmizeBrowser()]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.demoappsframework.FrameWorkExpections.ApplicationExceptions: Failed to maximize browser-[BrowserControls]->maxmizeBrowser()
+at com.demoappsframework.utilities.BrowserControls.maxmizeBrowser(BrowserControls.java:59)
+at com.demoapps.testBase.BaseTest.browserSetup(BaseTest.java:55)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.demoappsframework.FrameWorkExpections.ApplicationExceptions -->
+          <reporter-output>
+            <line>
+              <![CDATA[Test execution SkippedFC_01userRegistrationPage]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- FC_01userRegistrationPage -->
+        <test-method is-config="true" signature="attachScreenShotChainTest(org.testng.ITestResult)[pri:0, instance:com.demoapps.testcase.FuncationalTestCase@55b5cd2b]" started-at="2026-06-30T12:23:45 IST" name="attachScreenShotChainTest" finished-at="2026-06-30T12:23:45 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenShotChainTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.demoapps.testcase.FuncationalTestCase@55b5cd2b]" started-at="2026-06-30T12:23:45 IST" name="closeBrowser" finished-at="2026-06-30T12:23:45 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.demoapps.testcase.FuncationalTestCase -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- ParallelExecution -->
+</testng-results>
