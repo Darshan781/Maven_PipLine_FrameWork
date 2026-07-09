@@ -1,0 +1,92 @@
+pipeline {
+agent { label 'windows' }   // Ensures it runs on Windows
+tools {
+    maven 'Maven_Home'
+    jdk   'JDK21'
+
+}
+parameters {
+    string(name: 'RunnerFile', defaultValue: 'src/test/java/com.demoapps.runnerFiles/smokeTestRunner.xml', 
+    description: 'TestNG suite file name')
+    choice(name: 'BrowserName', choices: ['CHROME', 'FIREFOX', 'EDGE'], description: 'Select browser')
+    booleanParam(name: 'HeadLessMode', defaultValue: true, description: 'Run in headless mode')
+    booleanParam(name: 'PrivateMode', defaultValue: true, description: 'Run in incognito/private mode')
+    string(name: 'TestUrl', defaultValue: 'https://demoshop.tricentis.com/', description: 'Environment URL')
+}
+stages {
+    stage('Clean Workspace') {
+        steps {
+            cleanWs()
+        }
+    }
+    stage('Checkout Code') {
+        steps {
+            git branch: 'master', url: 'https://github.com/Darshan781/Maven_PipLine_FrameWork.git'
+        }
+    }
+    stage('Build Project') {
+        steps {
+            bat 'mvn clean compile'
+        }
+    }
+stage('Execute UI Tests') {
+        steps {
+            bat """
+	mvn clean test -DsuiteXmlFile=%RunnerFile% -Dbrowser=%BrowserName% -Dheadless=%	HeadLessMode% -Dprivate=%PrivateMode% -Durl=%TestUrl%
+            """
+        }
+    }
+stage('Re-run Failed Tests') {
+        steps {
+            script {
+                def failedSuitePath = 'test-output/testng-failed.xml'
+
+                if (!fileExists(failedSuitePath)) {
+                    failedSuitePath = 'target/surefire-reports/testng-failed.xml'
+                }
+
+                if (fileExists(failedSuitePath)) {
+                    echo "Re-running failed tests from: ${failedSuitePath}"
+
+                    bat """
+                    mvn test ^
+                    -DsuiteXmlFile=${failedSuitePath} ^
+                    -Dbrowser=%BrowserName% ^
+                    -Dheadless=%HeadLessMode% ^
+                    -Dprivate=%PrivateMode% ^
+                    -Durl=%TestUrl%
+                    """
+                } else {
+                    echo "No failed tests found"
+                }
+            }
+        }
+    }
+ stage('Allure Report') {
+        steps {
+            allure includeProperties: false,
+                   jdk: '',
+                   results: [[path: 'target/allure-results']]
+        }
+    }
+    stage('Archive Reports') {
+        steps {
+            archiveArtifacts artifacts: 'target/**/*', fingerprint: true
+        }
+    }
+}
+post {
+    always {
+        echo 'Execution Completed'
+    }
+    success {
+        echo 'All Tests Passed ✅'
+    }
+    failure {
+        echo 'Some Tests Failed ❌'
+    }
+}
+}
+
+
+
