@@ -3,14 +3,13 @@ agent { label 'windows' }   // Ensures it runs on Windows
 tools {
     maven 'Maven_Home'
     jdk   'JDK21'
-
 }
 parameters {
-    string(name: 'RunnerFile', defaultValue: 'src/test/java/com.demoapps.runnerFiles/smokeTestRunner.xml', 
+    string(name: 'RunnerFile', defaultValue: 'src/test/java/com.DemoShop.runnerFiles/smokeTestRunner.xml', 
     description: 'TestNG suite file name')
     choice(name: 'BrowserName', choices: ['CHROME', 'FIREFOX', 'EDGE'], description: 'Select browser')
     booleanParam(name: 'HeadLessMode', defaultValue: true, description: 'Run in headless mode')
-    booleanParam(name: 'PrivateMode', defaultValue: true, description: 'Run in incognito/private mode')
+    booleanParam(name: 'BrowserPrivateMode', defaultValue: true, description: 'Run in incognito/private mode')
     string(name: 'TestUrl', defaultValue: 'https://demoshop.tricentis.com/', description: 'Environment URL')
 }
 stages {
@@ -21,7 +20,7 @@ stages {
     }
     stage('Checkout Code') {
         steps {
-            git branch: 'master', url: 'https://github.com/Darshan781/Maven_PipLine_FrameWork.git'
+            git branch: 'master', url: 'https://github.com/Rahul-913/Batch_M4_DemoShop_E2E_Fw.git'
         }
     }
     stage('Build Project') {
@@ -32,7 +31,7 @@ stages {
 stage('Execute UI Tests') {
         steps {
             bat """
-	mvn clean test -DsuiteXmlFile=%RunnerFile% -Dbrowser=%BrowserName% -Dheadless=%	HeadLessMode% -Dprivate=%PrivateMode% -Durl=%TestUrl%
+	mvn clean test -DsuiteXmlFile=%RunnerFile% -Dbrowser=%BrowserName% -Dheadless=%	HeadLessMode% -Dprivate=%BrowserPrivateMode% -Durl=%TestUrl%
             """
         }
     }
@@ -40,20 +39,17 @@ stage('Re-run Failed Tests') {
         steps {
             script {
                 def failedSuitePath = 'test-output/testng-failed.xml'
-
                 if (!fileExists(failedSuitePath)) {
                     failedSuitePath = 'target/surefire-reports/testng-failed.xml'
                 }
-
                 if (fileExists(failedSuitePath)) {
                     echo "Re-running failed tests from: ${failedSuitePath}"
-
                     bat """
                     mvn test ^
                     -DsuiteXmlFile=${failedSuitePath} ^
                     -Dbrowser=%BrowserName% ^
                     -Dheadless=%HeadLessMode% ^
-                    -Dprivate=%PrivateMode% ^
+                    -Dprivate=%BrowserPrivateMode% ^
                     -Durl=%TestUrl%
                     """
                 } else {
@@ -87,6 +83,3 @@ post {
     }
 }
 }
-
-
-
